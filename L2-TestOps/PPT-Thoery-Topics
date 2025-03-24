@@ -1,0 +1,792 @@
+1. Introduction to Software Testing
+
+    What is Software Testing?
+    Manual Testing vs. Automation Testing
+
+2. Software Development and Testing Life Cycles
+
+    SDLC (Software Development Life Cycle)
+    STLC (Software Testing Life Cycle)
+    Validation and Verification
+    QA (Quality Assurance) vs. QC (Quality Control)
+
+3. Testing Strategies and Frameworks
+
+    TestOps
+    Future Trends in Testing
+    Role of Test Automation
+    Quality Assurance
+    QAOps
+    Quality Engineering
+    Performance Engineering
+
+4. Testing Methodologies
+
+    Domain-Driven Testing
+    Keyword-Driven Testing
+    TDD (Test-Driven Development)
+    BDD (Behavior-Driven Development)
+
+5. Specific Testing Types and Techniques
+
+    CX Testing
+    Smoke Testing
+    Microservices Testing
+    API Testing
+    Mobile Testing
+
+6. Types of Testing
+
+    Functional Testing
+    Non-Functional Testing
+    Alpha and Beta Testing
+
+7. Performance Testing
+
+    What is Performance Testing?
+    Types of Performance Testing
+    White Box Testing
+    Black Box Testing
+
+8. User Acceptance Testing and Development Models
+
+    UAT (User Acceptance Testing)
+    Agile Model
+    Waterfall Model
+    V-Model
+
+9. Defect and Bug Lifecycle Management
+
+    Defect Tracking
+    Defect and Bug Life Cycle
+    Severity and Priority
+    Bug Tracking and Defect Lifecycle
+
+10. Test Planning and Documentation
+
+    Test Plan
+    Test Case
+    Test Scenario
+    How to Create a Test Plan
+    
+Examples::
+
+1. Introduction to Software Testing
+
+	What is Software Testing? Real-Life Example: A banking application is rigorously tested to ensure transactions are secure and accurate.
+	Manual Testing vs. Automation Testing Real-Life Example: Manual testing of a mobile app's user interface vs. automated testing of its backend APIs using tools like Selenium.
+
+2. Software Development and Testing Life Cycles
+
+	SDLC (Software Development Life Cycle) Real-Life Example: Agile SDLC followed by tech giants like Google for iterative and incremental development.
+	STLC (Software Testing Life Cycle) Real-Life Example: Companies like IBM use STLC to systematically validate their software at different stages of development.
+	Validation and Verification Real-Life Example: SpaceX validates rocket software to ensure it meets user requirements and verifies it through extensive testing before a launch.
+	QA (Quality Assurance) vs. QC (Quality Control) Real-Life Example: Amazon uses QA processes to prevent defects and QC processes to identify defects in their products.
+
+3. Testing Strategies and Frameworks
+
+	TestOps Real-Life Example: Netflix utilizes TestOps to integrate testing activities within their CI/CD pipelines.
+	Future Trends in Testing Real-Life Example: AI and machine learning being implemented by Microsoft in testing to predict defect patterns.
+	Role of Test Automation Real-Life Example: Facebook automates regression testing to quickly validate updates across its platforms.
+	Quality Assurance Real-Life Example: Apple’s QA team ensures high-quality standards for its hardware and software products.
+	QAOps Real-Life Example: Spotify integrates QAOps into its DevOps processes to maintain consistent quality during continuous delivery.
+	Quality Engineering Real-Life Example: Tesla employs quality engineering principles to innovate and maintain the high standard of their electric vehicles.
+	Performance Engineering Real-Life Example: Twitter focuses on performance engineering to optimize the speed and scalability of its services.
+	
+4. Testing Methodologies
+
+	Domain-Driven Testing Real-Life Example: Healthcare software companies use domain-driven testing to ensure compliance with medical regulations.
+	Keyword-Driven Testing Real-Life Example: E-commerce platforms like Shopify use keyword-driven testing for reusable test scripts.
+	TDD (Test-Driven Development) Real-Life Example: Microsoft Azure employs TDD to develop robust and error-free cloud services.
+	BDD (Behavior-Driven Development) Real-Life Example: Walmart uses BDD to create tests that describe the desired behavior of their online shopping system.
+
+5. Specific Testing Types and Techniques
+
+	CX Testing Real-Life Example: Adobe conducts CX testing to enhance the customer experience on its Creative Cloud platform.
+	Smoke Testing Real-Life Example: Startups perform smoke testing to ensure basic functionalities work before deeper testing begins.
+	Microservices Testing Real-Life Example: Uber tests its microservices architecture to ensure seamless communication between different services.
+	API Testing Real-Life Example: PayPal rigorously tests APIs to ensure secure and reliable payment processing.
+	Mobile Testing Real-Life Example: Instagram performs extensive mobile testing to ensure app stability across different devices and OS versions.
+
+6. Types of Testing
+
+	Functional Testing Real-Life Example: Salesforce performs functional testing to validate each software feature works as expected.
+	Non-Functional Testing Real-Life Example: Slack conducts non-functional testing to ensure performance, usability, and reliability.
+	Alpha and Beta Testing Real-Life Example: Microsoft conducts alpha testing internally and beta testing with select users for new Windows updates.
+
+7. Performance Testing
+
+	What is Performance Testing? Real-Life Example: Google performs performance testing to ensure their search engine delivers fast and accurate results.
+	Types of Performance Testing Real-Life Example: Load testing for Amazon's e-commerce website during Black Friday sales.
+	White Box Testing Real-Life Example: Developers at Intel perform white box testing to validate internal workings of their processors.
+	Black Box Testing Real-Life Example: Independent testing firms conduct black box testing on various consumer software products.
+	
+8. User Acceptance Testing and Development Models
+
+	UAT (User Acceptance Testing) Real-Life Example: SAP conducts UAT with end-users to validate ERP software functionality.
+	Agile Model Real-Life Example: Spotify uses Agile methodologies for their continuous development and deployment cycles.
+	Waterfall Model Real-Life Example: NASA uses the Waterfall model for space mission software development, with strict sequential phases
+	V-Model Real-Life Example: Siemens employs the V-Model for safety-critical systems where validation and verification are paramount.
+	
+9. Defect and Bug Lifecycle Management
+
+	Defect Tracking Real-Life Example: JIRA is widely used by software teams to track defects through their lifecycle.
+	Defect and Bug Life Cycle Real-Life Example: Adobe follows a defined bug lifecycle from identification to resolution for their Creative Cloud applications.
+	Severity and Priority Real-Life Example: Banking software defects are categorized based on severity and priority to ensure critical issues are resolved first.
+	Bug Tracking and Defect Lifecycle Real-Life Example: GitHub employs bug tracking to manage and resolve issues in their codebase.
+	
+10. Test Planning and Documentation
+
+	Test Plan Real-Life Example: Boeing creates detailed test plans to ensure the safety and functionality of aircraft systems.
+	Test Case Real-Life Example: QA teams at SAP write test cases to validate ERP software features.
+	Test Scenario Real-Life Example: E-commerce companies like Amazon define test scenarios to simulate real-world transactions.
+	How to Create a Test Plan Real-Life Example: IBM follows structured guidelines to create comprehensive test plans for their software products.
+	
+	
+
+
+
+Practical Task
+
+Test Scenarios
+
+    Test Scenario 1: Verify Homepage Load Time
+    Test Scenario 2: Validate Login Functionality
+    Test Scenario 3: Check Registration Form
+    Test Scenario 4: Ensure Navigation Menu Works
+    Test Scenario 5: Test Contact Us Form Submission
+    Test Scenario 6: Validate Search Functionality
+    Test Scenario 7: Check Image Carousel on Homepage
+    Test Scenario 8: Verify Footer Links
+    Test Scenario 9: Ensure Product Page Loads Properly
+    Test Scenario 10: Check for Broken Links Across Website
+
+Test Cases
+Test Case 1: Verify Homepage Load Time
+    Test Case ID: TC001
+    Description: Test if the homepage loads within 3 seconds.
+    Steps:
+        Open the browser.
+        Navigate to the homepage URL.
+        Measure the load time.
+    Expected Result: Homepage should load within 3 seconds.
+
+Test Case 2: Validate Login Functionality
+    Test Case ID: TC002
+    Description: Ensure user can log in with valid credentials.
+    Steps:
+        Open the browser.
+        Navigate to the login page.
+        Enter valid username and password.
+        Click on the login button.
+    Expected Result: User should be redirected to the dashboard.
+    
+Test Case 3: Check Registration Form
+    Test Case ID: TC003
+    Description: Test if the registration form accepts valid details.
+    Steps:
+        Open the browser.
+        Navigate to the registration page.
+        Enter valid details in all fields.
+        Click on the submit button.
+    Expected Result: User should receive a confirmation message.
+
+Test Case 4: Ensure Navigation Menu Works
+    Test Case ID: TC004
+    Description: Validate that all navigation links redirect to the correct pages.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Click on each link in the navigation menu.
+    Expected Result: Each link should redirect to the appropriate page.
+
+Test Case 5: Test Contact Us Form Submission
+    Test Case ID: TC005
+    Description: Ensure the contact form submits details correctly.
+    Steps:
+        Open the browser.
+        Navigate to the contact us page.
+        Fill in the form with valid details.
+        Click on the submit button.
+    Expected Result: User should receive a submission confirmation message.
+
+Test Case 6: Validate Search Functionality
+    Test Case ID: TC006
+    Description: Test if the search function returns relevant results.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Enter a search term in the search bar.
+        Click on the search button.
+    Expected Result: Search results should be displayed and relevant.
+
+Test Case 7: Check Image Carousel on Homepage
+    Test Case ID: TC007
+    Description: Validate that the image carousel works as expected.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Interact with the image carousel by clicking on the arrows.
+    Expected Result: Images should change upon interaction.
+
+Test Case 8: Verify Footer Links
+    Test Case ID: TC008
+    Description: Ensure all footer links redirect to the correct pages.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Click on each link in the footer.
+    Expected Result: Each link should redirect to the appropriate page.
+
+Test Case 9: Ensure Product Page Loads Properly
+    Test Case ID: TC009
+    Description: Test if the product page loads with all elements.
+    Steps:
+        Open the browser.
+        Navigate to the product page.
+    Expected Result: Product page should load with all elements.
+
+Test Case 10: Check for Broken Links Across Website
+    Test Case ID: TC010
+    Description: Verify that there are no broken links across the website.
+    Steps:
+        Open the browser.
+        Navigate through different pages of the website.
+        Click on various links.
+    Expected Result: There should be no broken links.
+
+Example Bug Report
+Bug Report 1: Contact Form Submission Error
+    Bug ID: BUG001
+    Title: Contact form does not submit details
+    Description: When a user fills out the contact form and submits it, an error message is displayed, and the form details are not sent.
+    Severity: High
+    Steps to Reproduce:
+        Open the browser.
+        Navigate to the contact us page.
+        Fill in the form with valid details.
+        Click on the submit button.
+    Expected Result: The form should submit successfully, and a confirmation message should be displayed.
+    Actual Result: An error message is displayed, and the form details are not sent.
+    Screenshot/Video: [Attach if available]
+    Assigned To: [Developer's name]
+    
+    
+
+Additional Test Cases
+Test Case 11: Verify Profile Page Edit Functionality
+    Test Case ID: TC011
+    Description: Ensure user can update profile information.
+    Steps:
+        Open the browser.
+        Log in with valid credentials.
+        Navigate to the profile page.
+        Update profile information.
+        Click on the save button.
+    Expected Result: Profile information should be updated successfully.
+
+Test Case 12: Validate Logout Functionality
+    Test Case ID: TC012
+    Description: Ensure user can log out successfully.
+    Steps:
+        Open the browser.
+        Log in with valid credentials.
+        Click on the logout button.
+    Expected Result: User should be logged out and redirected to the login page.
+
+Test Case 13: Test Password Reset Functionality
+    Test Case ID: TC013
+    Description: Ensure user can reset password using valid email.
+    Steps:
+        Open the browser.
+        Navigate to the password reset page.
+        Enter valid email address.
+        Click on the reset button.
+    Expected Result: Password reset instructions should be sent to the email.
+
+Test Case 14: Verify Shopping Cart Add Functionality
+    Test Case ID: TC014
+    Description: Test if products can be added to the shopping cart.
+    Steps:
+        Open the browser.
+        Navigate to the product page.
+        Click on the add to cart button.
+    Expected Result: Product should be added to the cart.
+
+Test Case 15: Validate Checkout Process
+    Test Case ID: TC015
+    Description: Ensure user can complete the checkout process.
+    Steps:
+        Open the browser.
+        Log in with valid credentials.
+        Add product to the cart.
+        Proceed to checkout.
+        Enter valid payment details.
+        Click on the place order button.
+    Expected Result: Order should be placed successfully.
+
+Test Case 16: Verify Wishlist Functionality
+    Test Case ID: TC016
+    Description: Test if products can be added to the wishlist.
+    Steps:
+        Open the browser.
+        Navigate to the product page.
+        Click on the add to wishlist button.
+    Expected Result: Product should be added to the wishlist.
+    
+Test Case 17: Validate Pagination on Product Listing Page
+    Test Case ID: TC017
+    Description: Ensure pagination works on the product listing page.
+    Steps:
+        Open the browser.
+        Navigate to the product listing page.
+        Click on the next page button.
+    Expected Result: Next set of products should be displayed.
+
+Test Case 18: Check Sorting Functionality on Product Listing Page
+    Test Case ID: TC018
+    Description: Ensure products can be sorted by price, name, etc.
+    Steps:
+        Open the browser.
+        Navigate to the product listing page.
+        Select a sorting option from the dropdown.
+    Expected Result: Products should be sorted as per the selected option.
+
+Test Case 19: Verify Newsletter Subscription
+    Test Case ID: TC019
+    Description: Ensure users can subscribe to the newsletter.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Enter valid email in the newsletter subscription field.
+        Click on the subscribe button.
+    Expected Result: User should receive a subscription confirmation email.
+
+Test Case 20: Validate Social Media Links
+    Test Case ID: TC020
+    Description: Ensure social media links redirect to the correct social media pages.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Click on the social media icons.
+    Expected Result: Each icon should redirect to the correct social media page.
+
+Bug Report Example
+Bug Report 2: Checkout Process Fails on Payment Page
+    Bug ID: BUG002
+    Title: Checkout process fails on payment page
+    Description: When a user tries to complete the checkout process, the payment page fails to load.
+    Severity: Critical
+    Steps to Reproduce:
+        Open the browser.
+        Log in with valid credentials.
+        Add product to the cart.
+        Proceed to checkout.
+        Enter valid payment details.
+        Click on the place order button.
+    Expected Result: Order should be placed successfully.
+    Actual Result: Payment page fails to load, and an error message is displayed.
+    Screenshot/Video: [Attach if available]
+    Assigned To: [Developer's name]
+
+
+STANDARD CODE FOR ABOVE TEST CASES.
+
+from selenium import webdriver
+import unittest
+
+class TestWebsite(unittest.TestCase):
+
+    def setUp(self):
+        self.driver = webdriver.Chrome()  # Ensure you have the ChromeDriver installed
+
+    def test_homepage_load_time(self):
+        import time
+        start_time = time.time()
+        self.driver.get('http://yourwebsite.com')
+        load_time = time.time() - start_time
+        self.assertLessEqual(load_time, 3)
+
+    def test_login_functionality(self):
+        self.driver.get('http://yourwebsite.com/login')
+        username_field = self.driver.find_element_by_name('username')
+        password_field = self.driver.find_element_by_name('password')
+        login_button = self.driver.find_element_by_name('login')
+        
+        username_field.send_keys('valid_username')
+        password_field.send_keys('valid_password')
+        login_button.click()
+        
+        self.assertIn('Dashboard', self.driver.page_source)
+
+    def test_registration_form(self):
+        self.driver.get('http://yourwebsite.com/register')
+        name_field = self.driver.find_element_by_name('name')
+        email_field = self.driver.find_element_by_name('email')
+        password_field = self.driver.find_element_by_name('password')
+        submit_button = self.driver.find_element_by_name('submit')
+        
+        name_field.send_keys('Test User')
+        email_field.send_keys('testuser@example.com')
+        password_field.send_keys('testpassword')
+        submit_button.click()
+        
+        self.assertIn('Confirmation', self.driver.page_source)
+
+    def test_navigation_menu(self):
+        self.driver.get('http://yourwebsite.com')
+        links = self.driver.find_elements_by_css_selector('nav a')
+        
+        for link in links:
+            link.click()
+            self.assertNotEqual(self.driver.current_url, 'http://yourwebsite.com')
+            self.driver.back()
+
+    def test_contact_form_submission(self):
+        self.driver.get('http://yourwebsite.com/contact')
+        name_field = self.driver.find_element_by_name('name')
+        email_field = self.driver.find_element_by_name('email')
+        message_field = self.driver.find_element_by_name('message')
+        submit_button = self.driver.find_element_by_name('submit')
+        
+        name_field.send_keys('Test User')
+        email_field.send_keys('testuser@example.com')
+        message_field.send_keys('This is a test message.')
+        submit_button.click()
+        
+        self.assertIn('Thank you', self.driver.page_source)
+
+    def test_search_functionality(self):
+        self.driver.get('http://yourwebsite.com')
+        search_field = self.driver.find_element_by_name('search')
+        search_button = self.driver.find_element_by_name('search_button')
+        
+        search_field.send_keys('test query')
+        search_button.click()
+        
+        self.assertIn('Search Results', self.driver.page_source)
+
+    def test_image_carousel(self):
+        self.driver.get('http://yourwebsite.com')
+        next_button = self.driver.find_element_by_css_selector('.carousel-next')
+        prev_button = self.driver.find_element_by_css_selector('.carousel-prev')
+        
+        next_button.click()
+        self.assertIn('Next Image', self.driver.page_source)
+        prev_button.click()
+        self.assertIn('Previous Image', self.driver.page_source)
+
+    def test_footer_links(self):
+        self.driver.get('http://yourwebsite.com')
+        links = self.driver.find_elements_by_css_selector('footer a')
+        
+        for link in links:
+            link.click()
+            self.assertNotEqual(self.driver.current_url, 'http://yourwebsite.com')
+            self.driver.back()
+
+    def test_product_page_load(self):
+        self.driver.get('http://yourwebsite.com/product')
+        self.assertIn('Product', self.driver.title)
+
+    def test_broken_links(self):
+        self.driver.get('http://yourwebsite.com')
+        links = self.driver.find_elements_by_tag_name('a')
+        
+        for link in links:
+            href = link.get_attribute('href')
+            if href:
+                self.driver.get(href)
+                self.assertNotEqual(self.driver.title, '404 Not Found')
+
+    def test_profile_edit_functionality(self):
+        self.driver.get('http://yourwebsite.com/login')
+        self.driver.find_element_by_name('username').send_keys('valid_username')
+        self.driver.find_element_by_name('password').send_keys('valid_password')
+        self.driver.find_element_by_name('login').click()
+        self.driver.find_element_by_name('profile').click()
+        self.driver.find_element_by_name('edit').click()
+        self.driver.find_element_by_name('name').send_keys('New Name')
+        self.driver.find_element_by_name('save').click()
+        self.assertIn('Profile updated', self.driver.page_source)
+
+    def test_logout_functionality(self):
+        self.driver.get('http://yourwebsite.com/login')
+        self.driver.find_element_by_name('username').send_keys('valid_username')
+        self.driver.find_element_by_name('password').send_keys('valid_password')
+        self.driver.find_element_by_name('login').click()
+        self.driver.find_element_by_name('logout').click()
+        self.assertIn('Login', self.driver.page_source)
+
+    def test_password_reset_functionality(self):
+        self.driver.get('http://yourwebsite.com/password_reset')
+        self.driver.find_element_by_name('email').send_keys('testuser@example.com')
+        self.driver.find_element_by_name('reset').click()
+        self.assertIn('Password reset instructions sent', self.driver.page_source)
+
+    def test_shopping_cart_add_functionality(self):
+        self.driver.get('http://yourwebsite.com/product')
+        self.driver.find_element_by_name('add_to_cart').click()
+        self.assertIn('Item added to cart', self.driver.page_source)
+
+    def test_checkout_process(self):
+        self.driver.get('http://yourwebsite.com/login')
+        self.driver.find_element_by_name('username').send_keys('valid_username')
+        self.driver.find_element_by_name('password').send_keys('valid_password')
+        self.driver.find_element_by_name('login').click()
+        self.driver.get('http://yourwebsite.com/product')
+        self.driver.find_element_by_name('add_to_cart').click()
+        self.driver.get('http://yourwebsite.com/cart')
+        self.driver.find_element_by_name('checkout').click()
+        self.driver.find_element_by_name('card_number').send_keys('1234567890123456')
+        self.driver.find_element_by_name('expiration_date').send_keys('12/25')
+        self.driver.find_element_by_name('cvv').send_keys('123')
+        self.driver.find_element_by_name('place_order').click()
+        self.assertIn('Order confirmed', self.driver.page_source)
+
+    def test_wishlist_functionality(self):
+        self.driver.get('http://yourwebsite.com/product')
+        self.driver.find_element_by_name('add_to_wishlist').click()
+        self.assertIn('Item added to wishlist', self.driver.page_source)
+
+    def test_pagination(self):
+        self.driver.get('http://yourwebsite.com/products')
+        self.driver.find_element_by_name('next_page').click()
+        self.assertIn('Page 2', self.driver.page_source)
+
+    def test_sorting_functionality(self):
+        self.driver.get('http://yourwebsite.com/products')
+        self.driver.find_element_by_name('sort').select_by_visible_text('Price: Low to High')
+        self.assertIn('Sorted by price', self.driver.page_source)
+
+    def test_newsletter_subscription(self):
+        self.driver.get('http://yourwebsite.com')
+        self.driver.find_element_by_name('newsletter_email').send_keys('testuser@example.com')
+        self.driver.find_element_by_name('subscribe').click()
+        self.assertIn('Subscription confirmed', self.driver.page_source)
+
+    def test_social_media_links(self):
+        self.driver.get('http://yourwebsite.com')
+        social_media_links = self.driver.find_elements_by_css_selector('footer .social-media a')
+        
+        for link in social_media_links:
+            link.click()
+            self.assertNotEqual(self.driver.current_url, 'http://yourwebsite.com')
+            self.driver.back()
+
+    def tearDown(self):
+        self.driver.close()
+
+if __name__ == '__main__':
+    unittest.main()
+
+Here's a step-by-step guide to running the tests:
+Step 1: Install Python
+Download and install Python from python.org. Make sure to add Python to your PATH during installation.
+
+Step 2: Install Selenium
+Open a command prompt or terminal and run:
+	pip install selenium
+
+Step 3: Download and Set Up ChromeDriver
+Download the ChromeDriver that matches your Chrome version from ChromeDriver. Extract the file and place it in a directory that is included in your system's PATH.
+
+Step 4: Create the Test Script
+Copy the test script provided earlier and save it as test_website.py.
+
+Step 5: Run the Test Script
+Open a command prompt or terminal, navigate to the directory where test_website.py is saved, and run:
+    python test_website.py
+    
+    
+
+Test Scenarios and Test Cases
+Test Scenario 1: Verify Homepage Load Time
+    Test Case ID: TC001
+    Description: Test if the homepage loads within 3 seconds.
+    Steps:
+        Open the browser.
+        Navigate to the homepage URL.
+        Measure the load time.
+    Expected Result: Homepage should load within 3 seconds.
+
+Test Scenario 2: Validate Login Functionality
+    Test Case ID: TC002
+    Description: Ensure user can log in with valid credentials.
+    Steps:
+        Open the browser.
+        Navigate to the login page.
+        Enter valid username and password.
+        Click on the login button.
+    Expected Result: User should be redirected to the dashboard.
+
+Test Scenario 3: Check Registration Form
+    Test Case ID: TC003
+    Description: Test if the registration form accepts valid details.
+    Steps:
+        Open the browser.
+        Navigate to the registration page.
+        Enter valid details in all fields.
+        Click on the submit button.
+    Expected Result: User should receive a confirmation message.
+
+Test Scenario 4: Ensure Navigation Menu Works
+    Test Case ID: TC004
+    Description: Validate that all navigation links redirect to the correct pages.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Click on each link in the navigation menu.
+    Expected Result: Each link should redirect to the appropriate page.
+
+Test Scenario 5: Test Contact Us Form Submission
+    Test Case ID: TC005
+    Description: Ensure the contact form submits details correctly.
+    Steps:
+        Open the browser.
+        Navigate to the contact us page.
+        Fill in the form with valid details.
+        Click on the submit button.
+    Expected Result: User should receive a submission confirmation message.
+
+Test Scenario 6: Validate Search Functionality
+    Test Case ID: TC006
+    Description: Test if the search function returns relevant results.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Enter a search term in the search bar.
+        Click on the search button.
+    Expected Result: Search results should be displayed and relevant.
+
+Test Scenario 7: Check Image Carousel on Homepage
+    Test Case ID: TC007
+    Description: Validate that the image carousel works as expected.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Interact with the image carousel by clicking on the arrows.
+    Expected Result: Images should change upon interaction.
+
+Test Scenario 8: Verify Footer Links
+    Test Case ID: TC008
+    Description: Ensure all footer links redirect to the correct pages.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Click on each link in the footer.
+    Expected Result: Each link should redirect to the appropriate page.
+
+Test Scenario 9: Ensure Product Page Loads Properly
+    Test Case ID: TC009
+    Description: Test if the product page loads with all elements.
+    Steps
+        Open the browser.
+        Navigate to the product page.
+    Expected Result: Prouct page should load with all elements.
+
+Test Scenario 10: Check for Broken Links Across Website
+    Test Case ID: TC010
+    Description: Verify that there are no broken links across the website.
+    Steps:
+        Open the browser.
+        Navigate through different pages of the website.
+        Click on various links.
+    Expected Result: There should be no broken links.
+
+Test Scenario 11: Verify Profile Page Edit Functionality
+    Test Case ID: TC011
+    Description: Ensure user can update profile information.
+    Steps:
+        Open the browser.
+        Log in with valid credentials.
+        Navigate to the profile page.
+        Update profile information.
+        Click on the save button.
+    Expected Result: Profile information should be updated successfully.
+
+Test Scenario 12: Validate Logout Functionality
+    Test Case ID: TC012
+    Description: Ensure user can log out successfully.
+    Steps:
+        Open the browser.
+        Log in with valid credentials.
+        Click on the logout button.
+    Expected Result: User should be logged out and redirected to the login page.
+
+Test Scenario 13: Test Password Reset Functionality
+    Test Case ID: TC013
+    Description: Ensure user can reset password using valid email.
+    Steps:
+        Open the browser.
+        Navigate to the password reset page.
+        Enter valid email address.
+        Click on the reset button.
+    Expected Result: Password reset instructions should be sent to the email.
+
+Test Scenario 14: Verify Shopping Cart Add Functionality
+    Test Case ID: TC014
+    Description: Test if products can be added to the shopping cart.
+    Steps:
+        Open the browser.
+        Navigate to the product page.
+        Click on the add to cart button.
+    Expected Result: Product should be added to the cart.
+    
+Test Scenario 15: Validate Checkout Process
+    Test Case ID: TC015
+    Description: Ensure user can complete the checkout process.
+    Steps:
+        Open the browser.
+        Log in with valid credentials.
+        Add product to the cart.
+        Proceed to checkout.
+        Enter valid payment details.
+        Click on the place order button.
+    Expected Result: Order should be placed successfully.
+
+Test Scenario 16: Verify Wishlist Functionality
+    Test Case ID: TC016
+    Description: Test if products can be added to the wishlist.
+    Steps:
+        Open the browser.
+        Navigate to the product page.
+        Click on the add to wishlist button.
+    Expected Result: Product should be added to the wishlist.
+
+Test Scenario 17: Validate Pagination on Product Listing Page
+    Test Case ID: TC017
+    Description: Ensure pagination works on the product listing page.
+    Steps:
+        Open the browser.
+        Navigate to the product listing page.
+        Click on the next page button.
+    Expected Result: Next set of products should be displayed.
+
+Test Scenario 18: Check Sorting Functionality on Product Listing Page
+    Test Case ID: TC018
+    Description: Ensure products can be sorted by price, name, etc.
+    Steps:
+        Open the browser.
+        Navigate to the product listing page.
+        Select a sorting option from the dropdown.
+    Expected Result: Products should be sorted as per the selected option.
+
+Test Scenario 19: Verify Newsletter Subscription
+    Test Case ID: TC019
+    Description: Ensure users can subscribe to the newsletter.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Enter valid email in the newsletter subscription field.
+        Click on the subscribe button.
+    Expected Result: User should receive a subscription confirmation email.
+
+Test Scenario 20: Validate Social Media Links
+    Test Case ID: TC020
+    Description: Ensure social media links redirect to the correct social media pages.
+    Steps:
+        Open the browser.
+        Navigate to the homepage.
+        Click on the social media icons.
+    Expected Result: Each icon should redirect to the correct social media page.

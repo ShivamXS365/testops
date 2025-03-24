@@ -1,0 +1,2428 @@
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>Data Foundry for Agentic Systems </title>
+    <link rel="shortcut icon" href="https://www.xenonstack.com/hubfs/xenonstack-favicon.png">
+    <meta name="description" content="Xenonstack is a data foundry for building agentic systems for business processes, legacy operations, enterprise systems, and autonomous AI agents.">  
+    <meta property="og:type" content="web page">
+    <meta property="og:image" content="https://www.xenonstack.com/hubfs/data-foundry-agentic-systems-xenonstack-1.png">
+    <meta property="og:url" content="https://www.xenonstack.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://twitter.com/xenonstack"> 
+    <!--RB2B script-->
+    <script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script src="https://js.hsadspixel.net/fb.js" type="text/javascript" id="hs-ads-pixel-8161231" data-ads-portal-id="8161231" data-ads-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="8161231" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hubspot.com/web-interactives-embed.js" type="text/javascript" id="hubspot-web-interactives-loader" crossorigin="anonymous" data-loader="hs-scriptloader" data-hsjs-portal="8161231" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hs-banner.com/v2/8161231/banner.js" type="text/javascript" id="cookieBanner-8161231" data-cookieconsent="ignore" data-hs-ignore="true" data-loader="hs-scriptloader" data-hsjs-portal="8161231" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hs-analytics.net/analytics/1740975900000/8161231.js" type="text/javascript" id="hs-analytics"></script><script type="text/javascript" async="" src="https://s3-us-west-2.amazonaws.com/b2bjsstore/b/LNKLDHMEMKOJ/reb2b.js.gz"></script><script>!function () {var reb2b = window.reb2b = window.reb2b || []; if (reb2b.invoked) return;reb2b.invoked = true;reb2b.methods = ["identify", "collect"]; reb2b.factory = function (method) {return function () {var args = Array.prototype.slice.call(arguments); args.unshift(method);reb2b.push(args);return reb2b;};}; for (var i = 0; i < reb2b.methods.length; i++) {var key = reb2b.methods[i];reb2b[key] = reb2b.factory(key);} reb2b.load = function (key) {var script = document.createElement("script");script.type = "text/javascript";script.async = true; script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz"; var first = document.getElementsByTagName("script")[0]; first.parentNode.insertBefore(script, first);}; reb2b.SNIPPET_VERSION = "1.0.1";reb2b.load("LNKLDHMEMKOJ");}();</script> 
+        
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="Xenonstack is a data foundry for building agentic systems for business processes, legacy operations, enterprise systems, and autonomous AI agents.">
+    <meta property="og:title" content="Data Foundry for Agentic Systems ">
+    <meta name="twitter:description" content="Xenonstack is a data foundry for building agentic systems for business processes, legacy operations, enterprise systems, and autonomous AI agents.">
+    <meta name="twitter:title" content="Data Foundry for Agentic Systems ">
+
+    
+
+    
+
+
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link class="hs-async-css" rel="stylesheet" href="https://www.xenonstack.com/hs-fs/hubfs/hub_generated/template_assets/1/181008383789/1739651014966/template_homepage-v7.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://www.xenonstack.com/hs-fs/hubfs/hub_generated/template_assets/1/181008383789/1739651014966/template_homepage-v7.min.css"></noscript>
+<link class="hs-async-css" rel="stylesheet" href="https://www.xenonstack.com/hs-fs/hubfs/hub_generated/template_assets/1/182657807661/1739606029505/template_get-started-multistep-form.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://www.xenonstack.com/hs-fs/hubfs/hub_generated/template_assets/1/182657807661/1739606029505/template_get-started-multistep-form.min.css"></noscript>
+<link rel="stylesheet" href="https://www.xenonstack.com/hs-fs/hubfs/hub_generated/template_assets/1/181004087609/1739605800683/template_main-file-new-v2.min.css">
+<link rel="stylesheet" href="https://www.xenonstack.com/hs-fs/hubfs/hub_generated/module_assets/1/185748272554/1740869754623/module_three-card-section.min.css">
+<link rel="stylesheet" href="https://www.xenonstack.com/hs-fs/hubfs/hub_generated/module_assets/1/182438793766/1740869742627/module_take-the-next-step-section.min.css">
+    
+
+    
+    <link rel="canonical" href="https://www.xenonstack.com">
+
+<!-- Site Schema by Morey Creative Studios // www.moreycreative.com/hubspot-schema -->
+
+<script type="application/ld+json">
+ {
+     "@context": "http://schema.org",
+     "@type": "Organization",
+     "mainEntityOfPage":{
+          "@type":"WebPage",
+          "@id":"https://www.xenonstack.com",
+          "description": "Xenonstack is a data foundry for building agentic systems for business processes, legacy operations, enterprise systems, and autonomous AI agents."
+     },
+     "url": "https://www.xenonstack.com/",
+     "logo": "https://www.xenonstack.com/hubfs/xenonstack-brand-logo.png",
+     "name": "XenonStack",
+      "description": "XenonStack is the #1 Data and AI foundry and technology services company to simplify and scale Enterprise and Generative AI Journeys.",
+     "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "7700 Windrose Ave. ",
+          "addressLocality": "Plano",
+          "addressRegion": "Texas",
+          "addressCountry": "USA",
+          "postalCode": "75024"
+     },
+     "telephone": "",
+     "email": "business@xenonstack.com",
+     "sameAs": [
+          "https://www.facebook.com/XenonStack",
+          "https://www.linkedin.com/company/xenonstack/",
+          "https://www.youtube.com/c/XenonStackOfficial",
+          "https://twitter.com/xenonstack"
+     ]
+}
+</script>
+<!-- End Schema -->
+<meta property="og:image" content="https://www.xenonstack.com/hubfs/data-foundry-agentic-systems-xenonstack-1.png">
+<meta property="og:image:width" content="2436">
+<meta property="og:image:height" content="1304">
+<meta property="og:image:alt" content="data-foundry-agentic-systems-xenonstack">
+<meta name="twitter:image" content="https://www.xenonstack.com/hubfs/data-foundry-agentic-systems-xenonstack-1.png">
+<meta name="twitter:image:alt" content="data-foundry-agentic-systems-xenonstack">
+
+<meta property="og:url" content="https://www.xenonstack.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+  <meta name="generator" content="HubSpot"><style id="_goober"> .go2933276541{position:fixed;display:block;width:100%;height:0px;margin:0px;padding:0px;overflow:visible;transform-style:preserve-3d;background:transparent;backface-visibility:hidden;pointer-events:none;left:0px;z-index:9998;}.go2369186930{top:0px;z-index:9999;height:100%;width:100%;}.go1348078617{bottom:0px;}.go2417249464{position:fixed;z-index:9989;}.go3921366393{left:0;bottom:0;}.go3967842156{right:0;bottom:0;}.go613305155{left:0;top:0;}.go471583506{right:0;top:0;}.go3670563033{position:relative;overflow:hidden;display:none;}.go1041095097{display:block;}.go1632949049{position:absolute;pointer-events:none;width:101vw;height:101vh;background:rgba(0,0,0,0.7);opacity:0;z-index:-1;}.go2512015367{z-index:99998;opacity:0.8;visibility:visible;pointer-events:all;cursor:pointer;}.go1432718904{overflow:hidden;}.go812842568{display:block !important;position:static !important;box-sizing:border-box !important;background:transparent !important;border:none;min-height:0px !important;max-height:none !important;margin:0px;padding:0px !important;height:100% !important;width:1px !important;max-width:100% !important;min-width:100% !important;}.go4194603687{z-index:99999;visibility:hidden;position:absolute;inset:50vh auto auto 50%;transform:translate(-50%,-50%);left:50%;top:150%;pointer-events:none;max-height:95%;max-width:95%;}.go4258295619{pointer-events:auto !important;visibility:visible;top:50%;transition:top 0.75s linear(0,0.006,0.023 2.2%,0.096 4.8%,0.532 15.4%,0.72 21%,0.793,0.853 26.7%,0.902,0.941,0.968 36.2%,0.987 39.7%,1 43.7%,1.007 48.3%,1.009 55.3%,1.002 78.2%,1 );}.go456419034{transition:opacity 0.3s ease-in;}.go3128134379{pointer-events:auto !important;visibility:visible !important;max-height:95vh !important;transition:max-height 1s ease-in;}.go494047706{z-index:9999;width:100%;max-height:95%;position:fixed;visibility:hidden;}.go2481764524{z-index:9999;width:100%;max-height:95%;position:fixed;visibility:hidden;bottom:0px;}.go2685733372{visibility:hidden;}.go2985984737{visibility:visible !important;}.go3281949485{pointer-events:auto !important;visibility:visible !important;max-height:95vh !important;transform:none !important;}.go3508454897{z-index:9999;width:100%;max-height:95%;position:fixed;visibility:hidden;transition:transform 1s linear(0,0.006,0.022 2.3%,0.091 5.1%,0.18 7.6%,0.508 16.3%,0.607,0.691,0.762,0.822 28.4%,0.872,0.912 35.1%,0.944 38.9%,0.968 43%,0.985 47.6%,0.996 53.1%,1.001 58.4%,1.003 65.1%,1 );}.go988075951{z-index:9999;position:fixed;left:10px;top:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go2699082514{z-index:9999;position:fixed;right:10px;top:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go1595992025{z-index:9999;position:fixed;left:10px;bottom:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go1222083472{z-index:9999;position:fixed;right:10px;bottom:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go722322694{transition:none !important;}.go26732895{cursor:pointer;}.go2083580917{display:flex;justify-content:center;align-items:center;}</style><script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-874062525"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/874062525/?random=1740976134132&amp;cv=11&amp;fst=1740976134132&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be52q0v9192867240za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101732282~101732284~102067808~102482433~102539968~102558064~102587591~102605417~102640600~102658453~102717422~102732003&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fwww.xenonstack.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Data%20Foundry%20for%20Agentic%20Systems&amp;did=dZTQ1Zm&amp;gdid=dZTQ1Zm&amp;npa=0&amp;pscdl=noapi&amp;auid=1157632464.1738914229&amp;fdr=QA&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script></head>
+  <body><div id="hs-web-interactives-top-push-anchor" class="go3670563033"></div>
+    <div class="body-wrapper">
+      
+      <div data-global-resource-path="xenonstack-hubspot-website/templates/partials/header-new-file-v3.html" class="header-shadow"><!-- Begin partial -->
+<header class="header-wrapper header-shadow headershadow" id="headerblock">
+  <div class="container-header header-container">
+    <div class="mobile-header-block">
+      <div class="mobile-header-inner">
+        <a href="https://www.xenonstack.com/">
+          <img src="https://www.xenonstack.com/hubfs/xenonstack-logo-new-relase.svg" width="160" height="50" alt="xenonstack-logo">
+        </a>
+        <div class="mobile-right">
+          <div class="menu-icon">
+            <img src="https://www.xenonstack.com/hubfs/hamburger-menu-xs.svg" class="xenonstack-hamburger" alt="Xenonstack Hamburger" onclick="showMenu()" id="uncolorHamburgerMobile" width="20" height="20">
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="header" style="">
+      <div class="header-outer-wrapper">
+        <ul class="nav-ul">
+          <li class="nav-li logo-li" style="display: flex;">
+            <a href="https://www.xenonstack.com/">
+              <img src="https://www.xenonstack.com/hubfs/xenonstack-logo-new-relase.svg" width="180" height="50" alt="xenonstack-logo">
+            </a>
+            <div class="menu-icon">
+              <em class="fa fa-bars" onclick="showMenu()"></em>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav-pointers">
+          <li class="nav-li platform-li item" onclick="scrollToSection('product-main-section-one')" style="display: none;">
+            <p>Foundry</p>
+          </li>
+          <li class="nav-li item" onclick="scrollToSection('product-main-section-two')" style="display: none;">
+            <p>Neural AI</p>
+          </li>
+          <li class="nav-li item" onclick="scrollToSection('product-main-section-four')" style="display: none;">
+            <p>NexaStack</p>
+          </li>
+          <li class="nav-li item" onclick="scrollToSection('product-main-section-five')" style="display: none;">
+            <p>ElixirData</p>
+          </li>
+          <li class="nav-li item" onclick="scrollToSection('product-main-section-three')" style="display: none;">
+            <p>MetaSecure</p>
+          </li>
+          <li class="nav-li item" onclick="scrollToSection('product-main-section-six')" style="display: none;">
+            <p>Akira AI</p>
+          </li>
+          <li class="nav-li item" onclick="scrollToSection('product-main-section-six')" style="display: none;">
+            <p>XAI</p>
+          </li>
+        </ul>
+        <ul class="nav-ul-button">
+          <li>
+            <div class="nav-li button-item" style="display: none;">
+              <div class="nav-button">
+                <a href="">
+                  <span>Get Started</span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- End partial --></div>
+      
+      
+<div id="contactDrawer" class="drawer">
+  <div class="drawer-content">
+    <button class="close-drawer" onclick="toggleDrawer()"><img src="https://www.xenonstack.com/hubfs/slider-cross-icon.svg" alt="slider-cross-icon" width="34" height="34"></button>
+  </div>
+  <div class="container-homepage">
+    <div class="get-started-form-wrapper" id="form-step-one">
+      <h2>Interested in Solving your Challenges with XenonStack Team</h2>
+      <div class="step-wrapper">
+        <h2>Get Started</h2>
+        <p>Get Started with your requirements and primary focus, that will help us to make your solution</p>
+      </div>
+      <div class="form-field-outer-wrapper">
+        <div class="form-field-wrapper">
+          <label for="First Name">First Name <span class="required-field">*</span></label>
+          <input type="text" name="firstname" placeholder="Please enter your First Name" id="Firstname">
+          <p class="error-message" id="firstname-error" style="display:none;">Please enter a valid First Name</p>
+        </div>
+        <div class="form-field-wrapper">
+          <label for="Last Name">Last Name <span class="required-field">*</span></label>
+          <input type="text" name="lastname" placeholder="Please enter your Last Name" id="Lastname">
+          <p class="error-message" id="lastname-error" style="display:none;">Please enter a valid Last Name</p>
+        </div>
+        <div class="form-field-wrapper">
+          <label for="Email ID">Business Email ID <span class="required-field">*</span></label>
+          <input type="text" name="email" placeholder="Please enter your Business Email ID" id="emailid">
+          <p class="error-message" id="email-error" style="display:none;">Please enter a valid Business Email ID</p>
+        </div>
+        <div class="form-field-wrapper">
+          <label for="Contact Number">Contact Number <span class="required-field">*</span></label>
+          <input type="text" name="contact" placeholder="Please enter your Contact Number" id="contactnumber">
+          <p class="error-message" id="contact-error" style="display:none;">Please enter a valid Contact Number</p>
+        </div>
+        <div class="form-field-wrapper">
+          <label for="Company">Company <span class="required-field">*</span></label>
+          <input type="text" name="company" placeholder="Please enter your Company Name" id="companyname">
+          <p class="error-message" id="company-error" style="display:none;">Please enter a valid Company Name</p>
+        </div>
+        <div class="form-field-wrapper">
+          <label for="Company">Industry Belongs To <span class="required-field">*</span></label>
+          <select name="industry" id="enterpriseIndustry" onchange="validateIndustry(),color(this)">
+            <option value="" selected="" disabled="">Please Select your Industry</option>
+            <option value="Advertising Services">Advertising Services</option>
+            <option value="Aerospace">Aerospace</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Banking and Finance Sector">Banking and Finance Sector</option>
+            <option value="Consumer Goods">Consumer Goods</option>
+            <option value="Consumer Technology">Consumer Technology</option>
+            <option value="Discrete Manufacturing">Discrete Manufacturing</option>
+            <option value="Education">Education</option>
+            <option value="Energy">Energy</option>
+            <option value="Enterprise Technology">Enterprise Technology</option>
+            <option value="Environmental Services">Environmental Services</option>
+            <option value="Financial Services">Financial Services</option>
+            <option value="Games and Sports">Games and Sports</option>
+            <option value="Government">Government</option>
+            <option value="Healthcare">Healthcare</option>
+            <option value="Hospitality">Hospitality</option>
+            <option value="Insurance">Insurance</option>
+            <option value="Legal Services">Legal Services</option>
+            <option value="Life Sciences">Life Sciences</option>
+            <option value="Marketing &amp; Advertising">Marketing &amp; Advertising</option>
+            <option value="Media and Entertainment">Media and Entertainment</option>
+            <option value="Mining">Mining</option>
+            <option value="Non-Profit Organization">Non-Profit Organization</option>
+            <option value="Oil and Gas">Oil and Gas</option>
+            <option value="Power &amp; Utilities">Power &amp; Utilities</option>
+            <option value="Professional Services">Professional Services</option>
+            <option value="Real Estate and Construction">Real Estate and Construction</option>
+            <option value="Renewable Energy">Renewable Energy</option>
+            <option value="Renewable Industry">Renewable Industry</option>
+            <option value="Retail">Retail</option>
+            <option value="Software Development">Software Development</option>
+            <option value="Solar Industry">Solar Industry</option>
+            <option value="Start-up">Start-up</option>
+            <option value="Supply Chain and Logistics">Supply Chain and Logistics</option>
+            <option value="Telecommunication">Telecommunication</option>
+            <option value="Travel and Hospitality">Travel and Hospitality</option>
+            <option value="Travel and Tourism">Travel and Tourism</option>
+            <option value="Wholesale and Distribution">Wholesale and Distribution</option>
+            <option value="Others">Others (Please Specify)</option>
+          </select>
+        </div>
+        <p class="error-message" id="error-message-one" style="display: none;">Please select all the required fields before proceeding</p>
+      </div>
+      <div class="next-step-button-wrapper">
+        <div class="next-step-button" onclick="proceedNext()"><p>Proceed Next</p></div>
+      </div>
+    </div>
+    <div class="get-started-form-wrapper" id="form-step-two" style="display: none;">
+      <h2>Interested in Solving your Challenges with XenonStack</h2>
+      <div class="step-wrapper">
+        <h2>Personalization</h2>
+        <p>Get Started with your requirements and primary focus, that will help us to make your solution</p>
+      </div>
+      <div class="questions-wrapper" id="agenticaiPlatform">
+        <h3>In Which Agentic Platform and Accelerator you are Interested? <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Akira AI - Agentic AI Platform Multi Agent System</p>
+          </div>
+          <div class="answers">
+            <p>Metasecure - Autonomous SOC</p>
+          </div>
+          <div class="answers">
+            <p>Nexastack – Build and Managed Compound AI Stack</p>
+          </div>
+          <div class="answers">
+            <p>Data Foundry</p>
+          </div>
+          <div class="answers">
+            <p>XAI – Vision and AI Platform – Visual AI Agents</p>
+          </div>
+          <div class="answers">
+            <p>Strategy Consulting</p>
+          </div>
+          <div class="answers">
+            <p>AI Managed Services</p>
+          </div>
+          <div class="answers">
+            <p>Others (Please Specify)</p>
+          </div>
+        </div>
+        <div class="others-textbox-wrapper" style="display: none;">
+          <input type="text" class="others-textbox" placeholder="Please specify">
+        </div>
+      </div>
+      <div class="questions-wrapper" id="companySegment">
+        <h3>Which segment does your company belong to? <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Startup</p>
+          </div>
+          <div class="answers">
+            <p>Scale Startup</p>
+          </div>
+          <div class="answers">
+            <p>SME</p>
+          </div>
+          <div class="answers">
+            <p>Mid Enterprises</p>
+          </div>
+          <div class="answers">
+            <p>Large Enterprises</p>
+          </div>
+          <div class="answers">
+            <p>Federal Government</p>
+          </div>
+          <div class="answers">
+            <p>Non Profits</p>
+          </div>
+          <div class="answers">
+            <p>Others (Please Specify)</p>
+          </div>
+        </div>
+        <div class="others-textbox-wrapper" style="display: none;">
+          <input type="text" class="others-textbox" placeholder="Please specify">
+        </div>
+      </div>
+      <div class="questions-wrapper" id="primaryFocus">
+        <h3>What is your primary focus areas? <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Platform Engineering</p>
+          </div>
+          <div class="answers">
+            <p>Data and Analytics</p>
+          </div>
+          <div class="answers">
+            <p>AI Managed Services</p>
+          </div>
+          <div class="answers">
+            <p>AI Transformation</p>
+          </div>
+          <div class="answers">
+            <p>IT Operations Management</p>
+          </div>
+          <div class="answers">
+            <p>Supply Chain Management</p>
+          </div>
+          <div class="answers">
+            <p>Managed Services</p>
+          </div>
+          <div class="answers">
+            <p>Security Operations</p>
+          </div>
+          <div class="answers">
+            <p>Finance Operations</p>
+          </div>
+          <div class="answers">
+            <p>HR Service Delivery</p>
+          </div>
+          <div class="answers">
+            <p>Customer Service</p>
+          </div>
+          <div class="answers">
+            <p>Telecom Operations</p>
+          </div>
+          <div class="answers">
+            <p>Clinical Operations</p>
+          </div>
+          <div class="answers">
+            <p>Energy Management</p>
+          </div>
+          <div class="answers">
+            <p>Others (Please Specify)</p>
+          </div>
+        </div>
+        <div class="others-textbox-wrapper" style="display: none;">
+          <input type="text" class="others-textbox" placeholder="Please specify">
+        </div>
+      </div>
+      <div class="questions-wrapper" id="aiUsecase">
+        <h3>At what stage is your AI use case currently in? <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Conceptualized: Use case defined, PoC pending</p>
+          </div>
+          <div class="answers">
+            <p>POC Completed</p>
+          </div>
+          <div class="answers">
+            <p>In Production with challenges</p>
+          </div>
+          <div class="answers">
+            <p>Not yet defined</p>
+          </div>
+          <div class="answers">
+            <p>Others (Please Specify)</p>
+          </div>
+        </div>
+        <div class="others-textbox-wrapper" style="display: none;">
+          <input type="text" class="others-textbox" placeholder="Please specify">
+        </div>
+      </div>
+      <div class="questions-wrapper" id="primaryChallenge">
+        <h3>What are the primary challenges in adopting AI? <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Data Quality Issues</p>
+          </div>
+          <div class="answers">
+            <p>Data Privacy and Compliance</p>
+          </div>
+          <div class="answers">
+            <p>Aligning AI with business goals</p>
+          </div>
+          <div class="answers">
+            <p>Unclear ROI from POCs</p>
+          </div>
+          <div class="answers">
+            <p>Integration with existing ERP systems</p>
+          </div>
+          <div class="answers">
+            <p>Scalability Challenges</p>
+          </div>
+          <div class="answers">
+            <p>Moving POCs in Production</p>
+          </div>
+          <div class="answers">
+            <p>Infrastructure Limitation</p>
+          </div>
+          <div class="answers">
+            <p>High Implementation costs</p>
+          </div>
+          <div class="answers">
+            <p>Others (Please Specify)</p>
+          </div>
+        </div>
+        <div class="others-textbox-wrapper" style="display: none;">
+          <input type="text" class="others-textbox" placeholder="Please specify">
+        </div>
+      </div>
+      <div class="questions-wrapper" id="companyInfra">
+        <h3>What kind of infrastructure does your organization currently using? <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>AWS</p>
+          </div>
+          <div class="answers">
+            <p>Microsoft Azure</p>
+          </div>
+          <div class="answers">
+            <p>GCP</p>
+          </div>
+          <div class="answers">
+            <p>IBM Cloud</p>
+          </div>
+          <div class="answers">
+            <p>Oracle Cloud</p>
+          </div>
+          <div class="answers">
+            <p>On Premises</p>
+          </div>
+          <div class="answers">
+            <p>Others (Please Specify)</p>
+          </div>
+        </div>
+        <div class="others-textbox-wrapper" style="display: none;">
+          <input type="text" class="others-textbox" placeholder="Please specify">
+        </div>
+      </div>
+      <div class="questions-wrapper" id="dataPlatform">
+        <h3>Are you using any Data platform? <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Databricks</p>
+          </div>
+          <div class="answers">
+            <p>SnowFlake</p>
+          </div>
+          <div class="answers">
+            <p>Amazon Redshift</p>
+          </div>
+          <div class="answers">
+            <p>Azure Synapse Analytics</p>
+          </div>
+          <div class="answers">
+            <p>Microsoft Fabric</p>
+          </div>
+          <div class="answers">
+            <p>Teradata</p>
+          </div>
+          <div class="answers">
+            <p>Oracle Database</p>
+          </div>
+          <div class="answers">
+            <p>SAP Hana</p>
+          </div>
+          <div class="answers">
+            <p>Informatica</p>
+          </div>
+          <div class="answers">
+            <p>Google Cloud BigQuery</p>
+          </div>
+          <div class="answers">
+            <p>Others (Please Specify)</p>
+          </div>
+        </div>
+        <div class="others-textbox-wrapper" style="display: none;">
+          <input type="text" class="others-textbox" placeholder="Please specify">
+        </div>
+      </div>
+      <div class="questions-wrapper" id="aiTransformation">
+        <h3>Preferred Approach for AI Transformation <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Assisted Intelligence Agents as Co-Pilot</p>
+          </div>
+          <div class="answers">
+            <p>Collaborative Intelligence Agents as AI Teammates</p>
+          </div>
+          <div class="answers">
+            <p>Autonomous Intelligence Agents – AI Agents</p>
+          </div>
+          <div class="answers">
+            <p>Agentic Actions</p>
+          </div>
+          <div class="answers">
+            <p>Agentic Process Automation</p>
+          </div>
+        </div>
+      </div>
+      <div class="questions-wrapper" id="solution">
+        <h3> In Which Domain your Solution/Organization belongs to in-terms of Data Privacy, Trustworthy AI <span class="required-field">*</span></h3>
+        <div class="answers-wrapper">
+          <div class="answers">
+            <p>Internal Organization</p>
+          </div>
+          <div class="answers">
+            <p>Highly Regulated Industry (Healthcare, Financials etc)</p>
+          </div>
+          <div class="answers">
+            <p>Medium Regulated</p>
+          </div>
+          <div class="answers">
+            <p>Non Regulated</p>
+          </div>
+        </div>
+      </div>
+      <p class="error-message" id="error-message-two" style="display: none;">Please select all the required fields</p>
+      <div class="next-step-button-wrapper">
+        <div class="previous-step-button" onclick="goBackToPrevious()"><p>Review Previous</p></div>
+        <div class="next-step-button" onclick="submitForm()"><p>Submit</p></div>
+      </div>
+    </div>
+    <div class="get-started-form-wrapper" id="form-step-three" style="display: none;">
+      <div class="successful-meeting-wrapper">
+        <img src="https://www.xenonstack.com/hubfs/green-checkmark.svg" alt="green-checkmark">
+        <h2>your request has been submitted successfully !</h2>
+        <p>Our XenonStack Team will shortly reach out to you. We are looking forward to showcase how XenonStack can transform your business.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="overlay" class="overlay" onclick="toggleDrawer()" style="display: none;"></div>
+<section class="banner-section">
+  <div class="container-homepage">
+    <div class="banner-content-wrapper">
+      <h1>Build Agentic Systems for <span id="changingTextWrapper"><span class="colored-text" id="changingText">Legacy Operations</span></span></h1>
+      <p><span>Enhancing AI Readiness through Frontier Data and Domain-Specific Models to unlock the full potential of enterprise data while Reimagining Business Workflows and Decision-Making Processes.</span></p>
+    </div>
+    <div class="banner-section-image">
+      
+      
+      
+      
+      
+      
+      <img src="https://www.xenonstack.com/hs-fs/hubfs/homepage-banner-1.webp?width=1430&amp;height=681&amp;name=homepage-banner-1.webp" alt="homepage-banner" width="1430" height="681" style="max-width: 100%; height: auto;" srcset="https://www.xenonstack.com/hs-fs/hubfs/homepage-banner-1.webp?width=715&amp;height=341&amp;name=homepage-banner-1.webp 715w, https://www.xenonstack.com/hs-fs/hubfs/homepage-banner-1.webp?width=1430&amp;height=681&amp;name=homepage-banner-1.webp 1430w, https://www.xenonstack.com/hs-fs/hubfs/homepage-banner-1.webp?width=2145&amp;height=1022&amp;name=homepage-banner-1.webp 2145w, https://www.xenonstack.com/hs-fs/hubfs/homepage-banner-1.webp?width=2860&amp;height=1362&amp;name=homepage-banner-1.webp 2860w, https://www.xenonstack.com/hs-fs/hubfs/homepage-banner-1.webp?width=3575&amp;height=1703&amp;name=homepage-banner-1.webp 3575w, https://www.xenonstack.com/hs-fs/hubfs/homepage-banner-1.webp?width=4290&amp;height=2043&amp;name=homepage-banner-1.webp 4290w" sizes="(max-width: 1430px) 100vw, 1430px">
+      
+    </div>
+    <div class="banner-mobile-section-image">
+      
+      
+      
+      <img src="https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-mobile-isometric-banner.webp?width=300&amp;height=164&amp;name=xs-homepage-mobile-isometric-banner.webp" alt="xs-homepage-mobile-isometric-banner" width="300" height="164" style="max-width: 100%; height: auto;" loading="eager" decoding="async" fetchpriority="high" srcset="https://www.xenonstack.com/hubfs/xs-homepage-mobile-isometric-banner.webp?width=300 300w, https://www.xenonstack.com/hubfs/xs-homepage-mobile-isometric-banner.webp?width=426 426w, https://www.xenonstack.com/hubfs/xs-homepage-mobile-isometric-banner.webp?width=639 639w" sizes="(max-width: 300px) 100vw, 300px">
+      
+    </div>
+
+    <div class="banner-tab-section-image">
+      
+      
+      
+      
+      
+      
+      <img src="https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-tab-isometric-banner.webp?width=600&amp;height=328&amp;name=xs-homepage-tab-isometric-banner.webp" alt="xs-homepage-tab-isometric-banner" loading="eager" width="600" height="328" style="max-width: 100%; height: auto;" srcset="https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-tab-isometric-banner.webp?width=300&amp;height=164&amp;name=xs-homepage-tab-isometric-banner.webp 300w, https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-tab-isometric-banner.webp?width=600&amp;height=328&amp;name=xs-homepage-tab-isometric-banner.webp 600w, https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-tab-isometric-banner.webp?width=900&amp;height=492&amp;name=xs-homepage-tab-isometric-banner.webp 900w, https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-tab-isometric-banner.webp?width=1200&amp;height=656&amp;name=xs-homepage-tab-isometric-banner.webp 1200w, https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-tab-isometric-banner.webp?width=1500&amp;height=820&amp;name=xs-homepage-tab-isometric-banner.webp 1500w, https://www.xenonstack.com/hs-fs/hubfs/xs-homepage-tab-isometric-banner.webp?width=1800&amp;height=984&amp;name=xs-homepage-tab-isometric-banner.webp 1800w" sizes="(max-width: 600px) 100vw, 600px">
+      
+    </div>
+  </div>
+</section>
+<section class="trusted-by-partners-section">
+  <div class="container-homepage">
+    <div class="trusted-by-partners-wrapper">
+      <h2>Trusted by leading companies and Partners</h2>
+      <div class="trusted-by-partners-images row">
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/amazon-partner-icon.svg" alt="amazon-partner-icon" loading="lazy" width="101" height="60">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/databricks.svg" alt="databricks" loading="lazy" width="140" height="27">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-landmark-group.png?width=526&amp;height=141&amp;name=xenonstack-landmark-group.png" alt="xenonstack-landmark-group" loading="lazy" width="526" height="141" srcset="https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-landmark-group.png?width=263&amp;height=71&amp;name=xenonstack-landmark-group.png 263w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-landmark-group.png?width=526&amp;height=141&amp;name=xenonstack-landmark-group.png 526w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-landmark-group.png?width=789&amp;height=212&amp;name=xenonstack-landmark-group.png 789w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-landmark-group.png?width=1052&amp;height=282&amp;name=xenonstack-landmark-group.png 1052w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-landmark-group.png?width=1315&amp;height=353&amp;name=xenonstack-landmark-group.png 1315w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-landmark-group.png?width=1578&amp;height=423&amp;name=xenonstack-landmark-group.png 1578w" sizes="(max-width: 526px) 100vw, 526px">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/dish-icon.svg" alt="dish-icon" loading="lazy" width="250" height="84">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-techstyleos.png?width=140&amp;height=41&amp;name=xenonstack-techstyleos.png" alt="xenonstack-techstyleos" loading="lazy" width="140" height="41" srcset="https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-techstyleos.png?width=70&amp;height=21&amp;name=xenonstack-techstyleos.png 70w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-techstyleos.png?width=140&amp;height=41&amp;name=xenonstack-techstyleos.png 140w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-techstyleos.png?width=210&amp;height=62&amp;name=xenonstack-techstyleos.png 210w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-techstyleos.png?width=280&amp;height=82&amp;name=xenonstack-techstyleos.png 280w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-techstyleos.png?width=350&amp;height=103&amp;name=xenonstack-techstyleos.png 350w, https://www.xenonstack.com/hs-fs/hubfs/homepage-logo/xenonstack-techstyleos.png?width=420&amp;height=123&amp;name=xenonstack-techstyleos.png 420w" sizes="(max-width: 140px) 100vw, 140px">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/vestas-icon.svg" alt="vestas-icon" loading="lazy" width="250" height="51">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/beam-suntory-icon.svg" alt="beam-suntory-icon" loading="lazy" width="125" height="125">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/dubai-future-foundation-icon.svg" alt="dubai-future-foundation-icon" loading="lazy" width="250" height="140">
+          
+        </div>
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 partners-icon-col">
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/accenture-icon.svg" alt="accenture-icon" loading="lazy" width="266" height="73">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="main-sub-heading-section">
+  <div class="container-homepage">
+    <h2>Agentic Platforms Foundational Stack for Autonomous Operations <button id="menu-toggle" aria-label="Toggle navigation" class="open"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> Delivered</h2>
+  </div>
+</div>
+<section class="three-card-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="content-heading">
+          <h2></h2><h2>Transforming Data Management and Analytics with Agentic AI&nbsp;</h2>
+          <p>AI-enabled catalogs give decision-makers real-time, actionable insights</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Industrial Automation Reimagined</h3>
+                  <h2>Reimagine Industry automation with AI Agents</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/cloudops-reimagined-1.svg" alt="cloudops-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>DataOps Reimagined</h3>
+                  <h2>Unlock Insights with Agent Analyst</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/decision-reimagined.svg" alt="decision-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Decision Reimagined</h3>
+                  <h2>Transform decision making with Agent Instruct</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/operations-reimagined.svg" alt="operations-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="product-main-section-one" class="product-main-section">
+<section class="product-main-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 product-main-content-col">
+        <div class="content-tag">
+          <p><span class="colored-text">Akira AI</span></p>
+        </div>
+        <div class="content-heading-wrapper">
+          <h2>Turn AI in your Applications into Agents and Agentic Automation</h2>
+          <p>Agentic AI native platform to adapt, learn and innovate with Intelligent AI Agents while driving efficiency and agility</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-one.svg" alt="product-icon-one" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Multi-Agent Systems</h3>
+          </div>
+          <p>Distributed System consists of multiple decision-making agents that can adapt, learn and act autonomously in a shared environment to achieve common or conflicting goals.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-two.svg" alt="product-icon-two" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Agentic Analytics</h3>
+          </div>
+          <p>Integration of AI agents that act autonomously within data and analytics workflows to optimize decision-making and streamline processes.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-three.svg" alt="product-icon-three" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Agentic AI Systems</h3>
+          </div>
+          <p>Autonomous, Flexible, Precise and Intuitive Agents with diverse capabilities to complex workflows, data-driven decision-making.</p>
+        </div>
+        
+        
+        <a href="https://www.akira.ai/">
+          <div class="product-button">
+            <p>Explore Further</p>
+            <img src="https://www.xenonstack.com/hubfs/button-white-arrow.svg" alt="button-arrow" width="20" height="16" loading="lazy">
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-6 product-main-content-image">
+        
+        
+        
+        
+        
+        
+        <img src="https://www.xenonstack.com/hubfs/ai-into-your-application-akiraai.svg" alt="ai-into-your-application-akiraai" loading="lazy" width="701" height="750" style="max-width: 100%; height: auto;">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="three-card-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="content-heading">
+          <h2></h2><h2>Reimagined IT and Service Operations to Elevate Human Potential</h2>
+          <p>Collaborative Intelligence to elevate your IT operations, service, and asset management.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>CloudOps Reimagined</h3>
+                  <h2>Elevate Cloud Operations with AI Automation</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/cloudops-reimagined-1.svg" alt="cloudops-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>SRE Reimagined</h3>
+                  <h2>Drive Productivity with AgentSRE</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/knowledge-reimagined.svg" alt="knowledge-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>PlatformOps Reimagined</h3>
+                  <h2>Reimagine the Platform Operations with AutonomousOps AI</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/operations-reimagined.svg" alt="operations-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="product-main-section-two" class="product-main-section">
+<section class="product-main-section">
+  <div class="container-homepage">
+    <div class="row row-reverse">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 product-main-content-col">
+        <div class="content-tag">
+          <p><span class="colored-text">ElixirData</span></p>
+        </div>
+        <div class="content-heading-wrapper">
+          <h2>Decision AI – Model and Track Decision</h2>
+          <p>Decision and Contextual Intelligence with Composite AI for decision-centric user interface to automate and augment decision making</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-one.svg" alt="product-icon-one" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Decision Modeling</h3>
+          </div>
+          <p>Design Agentic workflows by combining Data, context and AI to make fast, accurate and reliable.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-two.svg" alt="product-icon-two" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Decision Reasoning</h3>
+          </div>
+          <p>Orchestrating Decision Management with Business rules, Knowledge graph and AI Agents for prescriptive and actionable recommendations.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-three.svg" alt="product-icon-three" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Decision Action and Review</h3>
+          </div>
+          <p>Evaluating, Monitoring the decisions and Retaining decision artifacts and conducting decision retrospective.</p>
+        </div>
+        
+        
+        <a href="https://www.elixirdata.co/">
+          <div class="product-button">
+            <p>Explore Further</p>
+            <img src="https://www.xenonstack.com/hubfs/button-white-arrow.svg" alt="button-arrow" width="20" height="16" loading="lazy">
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-6 product-main-content-image-reverse">
+        
+        
+        
+        
+        
+        
+        <img src="https://www.xenonstack.com/hubfs/decision-ai-model-and-track-decision.svg" alt="decision-ai-model-and-track-decision" loading="lazy" width="701" height="750" style="max-width: 100%; height: auto;">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="three-card-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="content-heading">
+          <h2>AI-Assisted Software Supply Chain Security and Responsible AI&nbsp;</h2>
+          <p>Managing AI Risks and Compliance with Agentic Trust Score for building trustworthy AI Agents and Agentic automation&nbsp;</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Responsible AI Aviator</h3>
+                  <h2>Elevate Responsible AI with AI Automation</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/cloudops-reimagined-1.svg" alt="cloudops-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>SecOps Reimagined</h3>
+                  <h2>Autonomous SoC Operations with Agentic AI&nbsp;</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/knowledge-reimagined.svg" alt="knowledge-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Risk Management Aviator</h3>
+                  <h2>Managing AI Risks and Quality with AI Assurance</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/operations-reimagined.svg" alt="operations-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="product-main-section-three" class="product-main-section">
+<section class="product-main-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 product-main-content-col">
+        <div class="content-tag">
+          <p><span class="colored-text">XenonStack AI</span></p>
+        </div>
+        <div class="content-heading-wrapper">
+          <h2>Build Visual AI Agents for Autonomous Decision Making</h2>
+          <p>Highly perceptive, accurate, and interactive visual AI agents to make better decisions using richer insights generated from natural interactions</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-one.svg" alt="product-icon-one" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Visual AI Agents</h3>
+          </div>
+          <p>Vision Language Models, VLM's allow users to interact with images and videos using natural language, gaining contextual insights.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-two.svg" alt="product-icon-two" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>AI vision at the EDGE</h3>
+          </div>
+          <p>Agentic Workflows for building EDGE AI applications and integrating into any Enterprise Systems and Applications for High Availability, reduced cost, Device Intelligence and Increased Privacy.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-three.svg" alt="product-icon-three" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Autonomous Stores</h3>
+          </div>
+          <p>Autonomous Retail Stores with Agentic AI and Visual Agents enabling safety and hygiene with personalized experiences and valuable real-time insights and better inventory management and purchasing decisions to improve store efficiently.</p>
+        </div>
+        
+        
+        <a href="https://www.xenonstack.ai/?__hstc=268070033.51b3771a8d85a0cb42d1ff4b741136b2.1738914309069.1740728111345.1740976134115.12&amp;__hssc=268070033.1.1740976134115&amp;__hsfp=3751684062">
+          <div class="product-button">
+            <p>Explore Further</p>
+            <img src="https://www.xenonstack.com/hubfs/button-white-arrow.svg" alt="button-arrow" width="20" height="16" loading="lazy">
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-6 product-main-content-image">
+        
+        
+        
+        
+        
+        
+        <img src="https://www.xenonstack.com/hubfs/visual-ai-agents-for-autonomous-decision.svg" alt="visual-ai-agents-for-autonomous-decision" loading="lazy" width="701" height="750" style="max-width: 100%; height: auto;">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="three-card-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="content-heading">
+          <h2>Reimagined Customer Service and Support with Agentic AI&nbsp;</h2>
+          <p>Knowledge Management and Customer Experience with Real-Time Decision making and Insights&nbsp;</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Customer Support Reimagined</h3>
+                  <h2>Simplify Support with Agentic Knowledge Discovery&nbsp;&nbsp;</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/cloudops-reimagined-1.svg" alt="cloudops-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Experiences Reimagined</h3>
+                  <h2>Augmenting Human Agents with AI for Real-time decision Making</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/knowledge-reimagined.svg" alt="knowledge-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Knowledge Reimagined</h3>
+                  <h2>Boost your knowledgebase with Agent Evaluation</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/operations-reimagined.svg" alt="operations-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="product-main-section-four" class="product-main-section">
+<section class="product-main-section">
+  <div class="container-homepage">
+    <div class="row row-reverse">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 product-main-content-col">
+        <div class="content-tag">
+          <p><span class="colored-text">NexaStack</span></p>
+        </div>
+        <div class="content-heading-wrapper">
+          <h2>Inference AI Infrastructure for Agentic Systems</h2>
+          <p>Compound System for Efficient Deployment and Scalable AI workloads for Private Cloud AI Compute Engine</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-one.svg" alt="product-icon-one" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>AI Model Training and Fine-tuning</h3>
+          </div>
+          <p>AI training model to perform specific tasks by providing it large amounts of data from scratch and Fine tuning enables and adapt AI models to specific tasks without starting from scratch.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-two.svg" alt="product-icon-two" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>AI Model Serving</h3>
+          </div>
+          <p>Unified Platform to deploy, govern, and query AI and ML models for real-time and batch inference for Cloud and On-premises Environments.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-three.svg" alt="product-icon-three" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Private AI Cloud Compute</h3>
+          </div>
+          <p>Private Cloud Compute is custom-built server hardware that brings the power and security with Stateless computation and enforceable guarantees, No privileged runtime access, Non-targetability and Verifiable transparency.</p>
+        </div>
+        
+        
+        <a href="https://nexastack.ai/">
+          <div class="product-button">
+            <p>Explore Further</p>
+            <img src="https://www.xenonstack.com/hubfs/button-white-arrow.svg" alt="button-arrow" width="20" height="16" loading="lazy">
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-6 product-main-content-image-reverse">
+        
+        
+        
+        
+        
+        
+        <img src="https://www.xenonstack.com/hubfs/build-and-manage-compound-ai-systems.svg" alt="build-and-manage-compound-ai-systems" loading="lazy" width="701" height="750" style="max-width: 100%; height: auto;">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="explore-models">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-2 col-md-2 col-lg-2 models-left">
+        <img src="https://www.xenonstack.com/hubfs/second-mid-banner-left.svg" alt="models-left">
+      </div>
+      <div class="col-12 col-sm-8 col-md-8 col-lg-8 models-content animated-section-fadinup fadeinup">
+        <h2>AI Labs as Services <span class="colored-text">AILaaS</span> on On-Premises with AkiraStack</h2>
+        <p>Composable Platform provides scalable, customizable, and&nbsp;cost-effective solution for colleges and universities for building Innovation and research Labs</p>
+        <div class="models-cta-wrapper">
+          <a href="https://akirastack.com/">
+            <button class="models-cta"><p>Discover Now</p></button>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-2 col-md-2 col-lg-2 models-right">
+        <img src="https://www.xenonstack.com/hubfs/second-mid-banner-right.svg" alt="models-right">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="product-main-section-five" class="product-main-section">
+<section class="product-main-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 product-main-content-col">
+        <div class="content-tag">
+          <p><span class="colored-text">MetaSecure</span></p>
+        </div>
+        <div class="content-heading-wrapper">
+          <h2>Manage AI Risk and AI Application Security</h2>
+          <p>AI risk management involves Data , Model, operational, Ethical and compliance risks for identifying and addressing vulnerabilities and threats for Agentic Systems</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-one.svg" alt="product-icon-one" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Autonomous SoC</h3>
+          </div>
+          <p>Enabling faster threat detection, containment, investigation and response. Eliminating alert fatigue and hyperautomation of Case Management with Agentic AI and Augment Soc Analysts with Aviators and Droids.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-two.svg" alt="product-icon-two" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Red Team for AI Agents and Enterprise AI Workflows</h3>
+          </div>
+          <p>To identify and explore potential risks in an AI system by simulating real-world attacks, including malicious inputs, biased data, or adversarial manipulation attempts with structured way including leaks of sensitive data and generated content.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-three.svg" alt="product-icon-three" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>AI Software Supply Chain</h3>
+          </div>
+          <p>AI Application Security involves AI Security and AI Safety and Putting AI risk management framework into action with Visibility through an AI-BOM, Proactive risk mitigation with context and Threat detection in AI pipelines.</p>
+        </div>
+        
+        
+        <a href="https://metasecure.ai/">
+          <div class="product-button">
+            <p>Explore Further</p>
+            <img src="https://www.xenonstack.com/hubfs/button-white-arrow.svg" alt="button-arrow" width="20" height="16" loading="lazy">
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-6 product-main-content-image">
+        
+        
+        
+        
+        
+        
+        <img src="https://www.xenonstack.com/hubfs/manage-ai-risk-metasecure.svg" alt="manage-ai-risk-metasecure" loading="lazy" width="701" height="750" style="max-width: 100%; height: auto;">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="three-card-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="content-heading">
+          <h2>Reimagined the Business Processes Optimization and Workflow Automation</h2>
+          <p>Coordinate AI agents within a unified system to achieve shared objectives across your business</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Asset Operations and Maintenance Reimagined</h3>
+                  <h2>Optimize Asset Management performance with Agent Force</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/cloudops-reimagined-1.svg" alt="cloudops-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>QAOps Reimagined</h3>
+                  <h2>Revolutionize QA Engineering with AgentQA</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/knowledge-reimagined.svg" alt="knowledge-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 card-col-wrapper">
+            <div class="sliding-card">
+              <div class="sliding-card-wrapper">
+                <div class="sliding-card-content">
+                  <h3>Procurement Reimagined</h3>
+                  <h2>Automate Operations with Data Management Agent</h2>
+                </div>
+                
+                
+                
+                
+                
+                
+                <img src="https://www.xenonstack.com/hubfs/operations-reimagined.svg" alt="operations-reimagined" loading="lazy" width="350" height="268" style="max-width: 100%; height: auto;">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="product-main-section-six" class="product-main-section">
+<section class="product-main-section">
+  <div class="container-homepage">
+    <div class="row row-reverse">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 product-main-content-col">
+        <div class="content-tag">
+          <p><span class="colored-text">Neural AI OS</span></p>
+        </div>
+        <div class="content-heading-wrapper">
+          <h2>Neural AI OS - Framework for Development of Responsible AI Applications</h2>
+          <p>Identifying potential Risks, assessing data biases, assuring transparency and explainability, mitigating risks with privacy by design, continuous monitoring and evaluation, and defined accountability structure and metrics</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-one.svg" alt="product-icon-one" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>AI Assurance</h3>
+          </div>
+          <p>Combining AI Guardrails and LLM Evaluation Towards Trustworthy, Explainable, Safe, and Ethical AI.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-two.svg" alt="product-icon-two" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>AI Engineering</h3>
+          </div>
+          <p>Human- Machine Interface design principles, privacy by design to build Safe AI Systems with combining systems engineering principles, software engineering and computer science.</p>
+        </div>
+        <div class="product-pointers-outer-wrapper">
+          <div class="product-pointer-heading">
+            
+            
+            
+            
+            
+            
+            <img src="https://www.xenonstack.com/hubfs/product-icon-three.svg" alt="product-icon-three" loading="lazy" width="24" height="24" style="max-width: 100%; height: auto;">
+            
+            <h3>Cloud Architecture – AI and ML Perspective</h3>
+          </div>
+          <p>Multi-Cloud Well-Architected Framework define principles and methods to design, build, and manage AI and ML Systems for operational, security, reliability, cost, and performance goals.</p>
+        </div>
+        
+        
+        <a href="https://www.xenonstack.com/neural-ai/">
+          <div class="product-button">
+            <p>Explore Further</p>
+            <img src="https://www.xenonstack.com/hubfs/button-white-arrow.svg" alt="button-arrow" width="20" height="16" loading="lazy">
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-6 product-main-content-image-reverse">
+        
+        
+        
+        
+        
+        
+        <img src="https://www.xenonstack.com/hubfs/neural-ai-os-framework-for-development.svg" alt="neural-ai-os-framework-for-development" loading="lazy" width="701" height="750" style="max-width: 100%; height: auto;">
+        
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="first-mid-banner-section">
+  <div class="container-homepage">
+    <div class="first-mid-banner-section-wrapper">
+      <h2>Augment Data and Analytics WorkFlows with Agentic AI</h2>
+      <p>Real Time, Dynamic Insights to adapt to evolving questions and user interaction and Data Management Delivered with Agentic and decision Workflows to revolutionise enterprise decision-making capabilities</p>
+      <div class="first-mid-banner-button">
+        
+        
+        <a href="https://www.xenonstack.com/agentic-ai/">
+          <p>Discover More</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="industries-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 industries-left-col">
+        <div class="industries-content-wrapper">
+          <h2>Industries</h2>
+          <p>How Industries and different departments use Agentic Workflows and Decision Intelligence to Become Decision Centric.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8 industries-right-col">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 first-col">
+            <a href="https://www.xenonstack.com/industries/aerospace/">
+              <div class="industries-card-wrapper">
+                <img src="https://www.xenonstack.com/hubfs/aerospace-and-aviation.svg" alt="aerospace-and-aviation" width="44" height="44" loading="lazy">
+                <h3>Aerospace and Aviation</h3>
+                <p>Revolutionizing travel with advanced tech for faster, safer air and space journeys</p>
+              </div>
+            </a>
+            <a href="https://www.xenonstack.com/industries/banking/">
+              <div class="industries-card-wrapper">
+                <img src="https://www.xenonstack.com/hubfs/financial-services.svg" alt="financial-services" width="44" height="44" loading="lazy">
+                <h3>Financial Services</h3>
+                <p>Autonomous operations boost financial services by improving accuracy, speed, and efficiency</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 second-col">
+            <a href="https://www.xenonstack.com/industries/digital-manufacturing-services/">
+              <div class="industries-card-wrapper">
+                <img src="https://www.xenonstack.com/hubfs/automotive-and-industrial.svg" alt="automotive-and-industrial" width="44" height="44" loading="lazy">
+                <h3>Automotive and Industrial</h3>
+                <p>Automotive and industrial sectors with improved precision, speed, and efficiency</p>
+              </div>
+            </a>
+            <a href="https://www.xenonstack.com/industries/enterprise-technology/">
+              <div class="industries-card-wrapper">
+                <img src="https://www.xenonstack.com/hubfs/technology.svg" alt="technology" width="44" height="44" loading="lazy">
+                <h3>Technology</h3>
+                <p>Boosting the tech industry with faster, more precise, and highly efficient processes</p>
+              </div>
+            </a>
+            <a href="https://www.xenonstack.com/industries/consumer-technology/">
+              <div class="industries-card-wrapper">
+                <img src="https://www.xenonstack.com/hubfs/consumer-tech.svg" alt="consumer-tech" width="44" height="44" loading="lazy">
+                <h3>Consumer Tech</h3>
+                <p>Enhancing consumer tech with smarter, faster, and more reliable performance for daily life</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 first-col">
+            <a href="https://www.xenonstack.com/industries/retail/">
+              <div class="industries-card-wrapper">
+                <img src="https://www.xenonstack.com/hubfs/supply-chain.svg" alt="supply-chain" width="44" height="44" loading="lazy">
+                <h3>Supply Chain</h3>
+                <p>Supply chains advance with autonomous tech, boosting efficiency, reducing costs, and staying competitive</p>
+              </div>
+            </a>
+            <a href="https://www.xenonstack.com/industries/travel-hospitality/">
+              <div class="industries-card-wrapper">
+                <img src="https://www.xenonstack.com/hubfs/hospilaity-and-tourism.svg" alt="hospitality-and-tourism" width="44" height="44" loading="lazy">
+                <h3>Hospitality and Tourism</h3>
+                <p>Elevating hospitality and tourism with smart tech for seamless, efficient guest experiences</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="xai-bootcamp-section">
+  <div class="container-homepage">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 bootcamp-left-col">
+        <div class="bootcamp-content-wrapper">
+          <h2>XAI Bootcamps</h2>
+          <p>XenonStack XAI Bootcamps helps Enterprises to understand how to Infuse AI into Processes and Enterprise Systems and Reimagined the Enterprise workflows and developed initial use cases and onboarded and trained the resources for production environments.</p>
+          
+          
+          <a href="https://www.xenonstack.com/xenonstack-academy/">
+            <div class="product-button">
+              <p>Explore Further</p>
+              <img src="https://www.xenonstack.com/hubfs/button-white-arrow.svg" alt="button-arrow" width="20" height="16" loading="lazy">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-6 bootcamp-right-col">
+        <div class="bootcamp-image-wrapper">
+          
+          
+          
+          
+          
+          
+          <img src="https://www.xenonstack.com/hubfs/xai-bootcamp-1.svg" alt="xai-bootcamp" loading="lazy" width="609" height="320" style="max-width: 100%;">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="second-mid-banner-section">
+  <div class="container-homepage">
+    <div class="second-mid-banner-section-wrapper">
+      <h2>Cloud FinOps for AI Engineering and Multi - Cloud with Xenonify</h2>
+      <p>XenonStack FinOps Solutions accelerate business value realization for migration and modernization, drive financial accountability, and cost efficiency across organization</p>
+      <div class="second-mid-banner-button">
+        
+        
+        <a href="https://xenonify.ai/">
+          <p>Discover More</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="take-the-next-step">
+  <div class="container-homepage">
+    <div class="take-the-next-step-heading">
+      <h2>Take the Next Step</h2>
+      <p>Reach out to our experts and discover how the Agentic system is transforming industries! By harnessing the power of agentic workflow and decision intelligence, businesses can become truly decision-centric.</p>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6 take-the-next-step-col">
+        <img src="https://www.xenonstack.com/hubfs/getting-started-with-xs.svg" alt="become-xenonstack" height="465" width="720" loading="lazy">
+        <div class="take-the-next-step-wrapper">
+          <div class="take-the-next-step-tag">
+            <p>Become XenonStack</p>
+          </div>
+          <h2>Get Started with XenonStack</h2>
+          <p>Emergent Mindset and Critical Thinking with Continuous Experimentation? You belong at XenonStack</p>
+          <div class="take-the-next-step-cta">
+            <a href="https://www.xenonstack.com/careers/">
+              <p>Join Us Today</p>
+              <img src="https://www.xenonstack.com/hubfs/cta-arrow-blue.svg" alt="blue-cta-arrow" width="16" height="16" loading="lazy">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6 take-the-next-step-col">
+        <img src="https://www.xenonstack.com/hubfs/become-a-xenonstack.svg" alt="technology-insights" height="465" width="720" loading="lazy">
+        <div class="take-the-next-step-wrapper">
+          <div class="take-the-next-step-tag">
+            <p>Resources</p>
+          </div>
+          <h2>Technology Insights</h2>
+          <p>Deep dive into Technology Accelerators and Agentic AI Adoption with Emerging Tech</p>
+          <div class="take-the-next-step-cta">
+            <a href="https://www.xenonstack.com/blog">
+              <p>Explore Blogs</p>
+              <img src="https://www.xenonstack.com/hubfs/cta-arrow-blue.svg" alt="blue-cta-arrow" width="16" height="16" loading="lazy">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  window.addEventListener('scroll', function() {
+    var header = document.getElementById('headerblock');
+    if (window.scrollY > 50) {
+      header.classList.add('header-shadow');
+    } else {
+      header.classList.remove('header-shadow');
+    }
+  });
+</script>
+<script>
+  const texts = ["Business Processes", "Enterprise Systems", "Legacy Operations"];
+  let index = 0;
+  const changingText = document.getElementById("changingText");
+
+  if (changingText) {
+    setInterval(() => {
+      changingText.classList.add('rotate-out');
+      setTimeout(() => {
+        index = (index + 1) % texts.length;
+        changingText.textContent = texts[index];
+        changingText.classList.remove('rotate-out');
+        changingText.classList.add('rotate-in');
+      }, 800);
+
+      setTimeout(() => {
+        changingText.classList.remove('rotate-in');
+      }, 1500);
+    }, 4000);
+  }
+</script>
+<script>
+  setTimeout(function() {
+    document.getElementById('menu-toggle').classList.add('open');
+  }, 8000);
+</script>
+<script>
+  function toggleDrawer() {
+  const drawer = document.getElementById('contactDrawer');
+  drawer.classList.toggle('open');
+}
+document.querySelector('.nav-button a').addEventListener('click', function(event) {
+  event.preventDefault();
+  toggleDrawer();
+});
+
+
+function toggleDrawer() {
+  const drawer = document.getElementById('contactDrawer');
+  const overlay = document.getElementById('overlay');
+  drawer.classList.toggle('open');
+  overlay.style.display = drawer.classList.contains('open') ? 'block' : 'none';
+}
+
+function scrollToTop() {
+  document.getElementById('contactDrawer').scrollTop = 0; 
+}
+
+function validateField(input, pattern, errorElement) {
+  if (!pattern.test(input.value)) {
+    errorElement.style.display = 'block';
+  } else {
+    errorElement.style.display = 'none';
+  }
+}
+function validateFields() {
+  let isValid = true;
+  const firstname = document.getElementById('Firstname');
+  const firstnameError = document.getElementById('firstname-error');
+  const firstnamePattern = /^[A-Za-z]+$/;
+  if (!firstnamePattern.test(firstname.value)) {
+    firstnameError.style.display = 'block';
+    isValid = false;
+  } else {
+    firstnameError.style.display = 'none';
+  }
+  const lastname = document.getElementById('Lastname');
+  const lastnameError = document.getElementById('lastname-error');
+  const lastnamePattern = /^[A-Za-z]+$/;
+  if (!lastnamePattern.test(lastname.value)) {
+    lastnameError.style.display = 'block';
+    isValid = false;
+  } else {
+    lastnameError.style.display = 'none';
+  }
+  const email = document.getElementById('emailid');
+  const emailError = document.getElementById('email-error');
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  if (!emailPattern.test(email.value)) {
+    emailError.style.display = 'block';
+    isValid = false;
+  } else {
+    emailError.style.display = 'none';
+  }
+  const contact = document.getElementById('contactnumber');
+  const contactError = document.getElementById('contact-error');
+  const contactPattern = /^[0-9]{10,16}$/;
+  if (!contactPattern.test(contact.value)) {
+    contactError.style.display = 'block';
+    isValid = false;
+  } else {
+    contactError.style.display = 'none';
+  }
+  const company = document.getElementById('companyname');
+  const companyError = document.getElementById('company-error');
+  const companyPattern = /^[A-Za-z0-9]+$/;
+  if (!companyPattern.test(company.value)) {
+    companyError.style.display = 'block';
+    isValid = false;
+  } else {
+    companyError.style.display = 'none';
+  }
+
+  return isValid;
+}
+function proceedNext() {
+  const firstName = document.getElementById('Firstname').value;
+  const lastName = document.getElementById('Lastname').value;
+  const emailId = document.getElementById('emailid').value;
+  const contactNumber = document.getElementById('contactnumber').value;
+  const companyName = document.getElementById('companyname').value;
+  const industry = document.getElementById('enterpriseIndustry').value;
+
+  if (firstName && lastName && emailId && contactNumber && companyName && industry && validateFields()) {
+    document.getElementById('form-step-one').style.display = 'none';
+    document.getElementById('form-step-two').style.display = 'block';
+    document.getElementById('error-message-one').style.display = 'none';
+    scrollToTop();
+  } else {
+    document.getElementById('error-message-one').style.display = 'block';
+  }
+}
+function goBackToPrevious() {
+  document.getElementById('form-step-two').style.display = 'none';
+  document.getElementById('form-step-one').style.display = 'block';
+  document.getElementById('error-message-one').style.display = 'none';
+  scrollToTop();
+}
+function submitForm() {
+  const questions = document.querySelectorAll('#form-step-two .questions-wrapper');
+  let allAnswered = true;
+  questions.forEach(question => {
+    const selectedOption = question.querySelector('.answers.selected');
+    if (!selectedOption) {
+      allAnswered = false;
+    }
+  });
+  if (allAnswered) {
+    let formFields = [
+      {
+        "name": "firstname",
+        "value": document.getElementById('Firstname').value
+      },
+      {
+        "name": "lastname",
+        "value": document.getElementById('Lastname').value
+      },
+      {
+        "name": "email",
+        "value": document.getElementById('emailid').value
+      },
+      {
+        "name": "company",
+        "value": document.getElementById('companyname').value
+      },
+      {
+        "name": "phone",
+        "value": document.getElementById('contactnumber').value
+      },
+      {
+        "name": "industry_belongs_to_",
+        "value": document.getElementById('enterpriseIndustry').value
+      },
+      {
+        "name": "in_which_agentic_platform_and_accelerator__you_are_interested_",
+        "value": document.querySelector('#agenticaiPlatform .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "at_what_stage_does_your_business_belong_to_",
+        "value": document.querySelector('#companySegment .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "what_is_your_primary_focus_areas_",
+        "value": document.querySelector('#primaryFocus .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "at_what_stage_is_your_ai_use_case_currently_in_",
+        "value": document.querySelector('#aiUsecase .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "what_are_the_primary_challenges_in_adopting_ai_",
+        "value": document.querySelector('#primaryChallenge .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "what_kind_of_infrastructure_does_your_organization_currently_using_",
+        "value": document.querySelector('#companyInfra .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "are_you_using_any_data_platform_",
+        "value": document.querySelector('#dataPlatform .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "preferred_approach_for_ai_transformation",
+        "value": document.querySelector('#aiTransformation .answers.selected p').innerText.trim()
+      },
+      {
+        "name": "in_which_domain_your_solution_organization_belongs_to_in_terms_of_data_privacy__trustworthy_ai",
+        "value": document.querySelector('#solution .answers.selected p').innerText.trim()
+      }
+    ];
+    const url = 'https://api.hsforms.com/submissions/v3/integration/submit/8161231/22ff0c52-d126-484e-a693-64f0a2082746';
+    const data = {
+      "fields": formFields,
+      "skipValidation": true,
+      "legalConsentOptions": {
+        "consent": {
+          "consentToProcess": true,
+          "text": "I agree to allow Example Company to store and process my personal data.",
+          "communications": [
+            {
+              "value": true,
+              "subscriptionTypeId": 999,
+              "text": "I agree to receive marketing communications from Example Company."
+            }
+          ]
+        }
+      },
+      "context": {
+        "pageUri": "https://www.xenonstack.com/",
+        "pageName": "Xenonstack"
+      }
+    };
+    const final_data = JSON.stringify(data);
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', url);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          console.log("Form submitted successfully!");
+          document.getElementById('form-step-two').style.display = 'none';
+          document.getElementById('form-step-three').style.display = 'block';
+          scrollToTop();
+        } else {
+          console.log("There was an issue submitting the form. Please try again.");
+        }
+      }
+    };
+    xhr.send(final_data);
+
+  } else {
+    document.getElementById('error-message-two').style.display = 'block';
+  }
+}
+document.getElementById('Firstname').addEventListener('blur', () => {
+  const firstnameError = document.getElementById('firstname-error');
+  const firstnamePattern = /^[A-Za-z]+$/;
+  validateField(document.getElementById('Firstname'), firstnamePattern, firstnameError);
+});
+document.getElementById('Lastname').addEventListener('blur', () => {
+  const lastnameError = document.getElementById('lastname-error');
+  const lastnamePattern = /^[A-Za-z]+$/;
+  validateField(document.getElementById('Lastname'), lastnamePattern, lastnameError);
+});
+document.getElementById('emailid').addEventListener('blur', () => {
+  const emailError = document.getElementById('email-error');
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  validateField(document.getElementById('emailid'), emailPattern, emailError);
+});
+document.getElementById('contactnumber').addEventListener('blur', () => {
+  const contactError = document.getElementById('contact-error');
+  const contactPattern = /^[0-9]{10,16}$/;
+  validateField(document.getElementById('contactnumber'), contactPattern, contactError);
+});
+document.getElementById('companyname').addEventListener('blur', () => {
+  const companyError = document.getElementById('company-error');
+  const companyPattern = /^[A-Za-z0-9]+$/;
+  validateField(document.getElementById('companyname'), companyPattern, companyError);
+});
+
+
+document.querySelectorAll('#form-step-two .questions-wrapper').forEach(question => {
+  const answers = question.querySelectorAll('.answers');
+  const othersTextboxWrapper = question.querySelector('.others-textbox-wrapper');
+
+  answers.forEach(answer => {
+    answer.addEventListener('click', () => {
+      answers.forEach(option => option.classList.remove('selected'));
+      answer.classList.add('selected');
+      if (answer.textContent.trim() === "Others (Please Specify)") {
+        othersTextboxWrapper.style.display = 'block';
+      } else {
+        othersTextboxWrapper.style.display = 'none';
+        const textbox = othersTextboxWrapper.querySelector('.others-textbox');
+        if (textbox) textbox.value = '';
+      }
+    });
+  });
+});
+
+
+function resetForm() {
+  document.getElementById('Firstname').value = '';
+  document.getElementById('Lastname').value = '';
+  document.getElementById('emailid').value = '';
+  document.getElementById('contactnumber').value = '';
+  document.getElementById('companyname').value = '';
+  document.getElementById('enterpriseIndustry').selectedIndex = 0;
+  document.querySelectorAll('#form-step-two .answers.selected').forEach(element => {
+    element.classList.remove('selected');
+  });
+  document.querySelectorAll('.error-message').forEach(error => {
+    error.style.display = 'none';
+  });
+  document.getElementById('form-step-one').style.display = 'block';
+  document.getElementById('form-step-two').style.display = 'none';
+  document.getElementById('form-step-three').style.display = 'none';
+}
+
+function closeDrawer() {
+  document.getElementById('drawer').style.display = 'none';
+  resetForm();
+}
+</script>
+<script>
+  const els = document.querySelectorAll(".nav-li");
+  function showMenu() {
+    els.forEach((e, s) => {
+      if (s > 0) {
+        if (e.style.display === "" || e.style.display === "none") {
+          e.style.display = "flex";
+          document.querySelector(".header").style.display = "block";
+          document.getElementById("headerblock").classList.add("headershadow");
+        } else {
+          e.style.display = "none";
+          document.querySelector(".header").style.display = "";
+          document.getElementById("headerblock").classList.remove("headershadow");
+        }
+      }
+    });
+  }
+  window.showMenu = showMenu;
+  function showDropdown(e) {
+    document.querySelectorAll(`#${e} a`)[0].firstElementChild.classList.toggle("open-dropdown");
+    document.getElementById(e).children[1].classList.toggle("nav-megamenuShow");
+  }
+
+  function showDropdownShadow() {
+    document.getElementById("headerblock").classList.add("headershadow-dropdown");
+  }
+
+  function hideDropdown() {
+    document.getElementById("headerblock").classList.remove("headershadow-dropdown");
+  }
+
+  function addRemoveClass() {
+    if (window.pageYOffset >= 10) {
+      document.getElementById("headerblock").classList.add("headershadow");
+    } else if (window.innerWidth >= 1300) {
+      document.getElementById("headerblock").classList.remove("headershadow");
+    } else if (window.innerWidth < 1300 && document.querySelector(".header").style.display === "") {
+      document.getElementById("headerblock").classList.remove("headershadow");
+    }
+  }
+  window.addEventListener("resize", () => {
+    if (window.innerWidth < 1300) {
+      els.forEach((e, s) => {
+        if (s > 0) e.style.display = "none";
+      });
+    } else {
+      els.forEach((e) => {
+        e.style.display = "flex";
+        document.querySelector(".header").style.display = "";
+        document.getElementById("headerblock").classList.remove("headershadow");
+      });
+    }
+  });
+
+  window.addEventListener("scroll", () => {
+    addRemoveClass();
+  });
+  document.querySelector("header").parentElement.classList.add("header-shadow");
+  let count = 0;
+  function showsearch() {
+    if (count === 0) {
+      count = 1;
+      document.getElementById("imageidsearch").src = "https://www.xenonstack.com/hubfs/xenonstack-iconmonstr-search-thin.svg";
+      document.querySelector(".xenonstack-header-dropdown-1").classList.add("xenonstack-header-dropdown-show");
+    } else {
+      count = 0;
+      document.getElementById("imageidsearch").src = "https://www.xenonstack.com/hubfs/xenonstack-iconmonstr-search-thin.svg";
+      document.querySelector(".xenonstack-header-dropdown-1").classList.remove("xenonstack-header-dropdown-show");
+    }
+  }
+  let countmobile = 0;
+
+  function showsearchmobile() {
+    if (document.querySelector(".header-wrapper").style.display === "block") {
+      document.querySelector(".header-wrapper").style.display = "";
+    }
+    if (window.innerWidth < 1300) {
+      if (countmobile === 0) {
+        countmobile = 1;
+        document.getElementById("imageidsearch1").src = "https://www.xenonstack.com/hubfs/xenonstack-iconmonstr-search-thin.svg";
+        document.querySelector(".xenonstack-header-dropdown-1-mobile").classList.add("xenonstack-header-dropdown-show-mobile");
+      } else {
+        countmobile = 0;
+        document.getElementById("imageidsearch1").src = "https://www.xenonstack.com/hubfs/xenonstack-iconmonstr-search-thin.svg";
+        document.querySelector(".xenonstack-header-dropdown-1-mobile").classList.remove("xenonstack-header-dropdown-show-mobile");
+      }
+    }
+  }
+</script>
+
+      
+      <div data-global-resource-path="xenonstack-hubspot-website/templates/partials/new-xenon-footer-v2.html"><!-- Begin partial -->
+<footer>
+  <div class="container-homepage">
+    <div class="row first-row">
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 footer-left-col">
+        <div class="footer-logo-wrapper">
+          <img src="https://www.xenonstack.com/hubfs/xenonstack-new-logo-release.svg" width="200" height="60" alt="xenonstack-logo">
+          <p>XenonStack is a Data Foundry for Agentic Systems to build composable platforms for businesses to use data and computing infrastructure to accelerate decision-making and experiences.</p>
+          <div class="social-media-outside-wrapper">
+            <a href="https://www.youtube.com/c/XenonStackOfficial" target="_blank" rel="noopener">
+              <img src="https://www.xenonstack.com/hubfs/xs-footer-social-icons/youtube-icon.svg" width="40" height="40" loading="lazy" alt="Youtube">
+            </a>
+            <a href="https://www.linkedin.com/company/xenonstack/" target="_blank" rel="noopener">
+              <img src="https://www.xenonstack.com/hubfs/xs-footer-social-icons/linkedin-icon.svg" width="40" height="40" loading="lazy" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/xenonstack" target="_blank" rel="noopener">
+              <img src="https://www.xenonstack.com/hubfs/xs-footer-social-icons/github-icon.svg" width="40" height="40" loading="lazy" alt="Github">
+            </a>
+            <a href="https://twitter.com/xenonstack" target="_blank" rel="noopener">
+              <img src="https://www.xenonstack.com/hubfs/xs-footer-social-icons/twitter-icon.svg" width="40" height="40" loading="lazy" alt="Twitter">
+            </a>
+            <a href="https://medium.com/@xenonstack" target="_blank" rel="noopener">
+              <img src="https://www.xenonstack.com/hubfs/xs-footer-social-icons/medium-icon.svg" width="40" height="40" loading="lazy" alt="Medium">
+            </a>
+            <a href="https://www.instagram.com/teamxenonstack/" target="_blank" rel="noopener">
+              <img src="https://www.xenonstack.com/hubfs/xs-footer-social-icons/instagram-icon.svg" width="40" height="40" loading="lazy" alt="Instagram">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-9 col-lg-9 footer-right-col">
+        <div class="partners-wrapper">
+          <div class="partners-logo-wrapper">
+            <img src="https://www.xenonstack.com/hubfs/iso-9001-2015-certified.svg" width="100" height="100" alt="iso-9001-certified" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/iso-27001-2022-certified.svg" width="100" height="100" alt="iso-27001-certified" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/databricks.svg" width="160" height="100" alt="aws-cloud-native-member-logo" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/microsoft-silver-partner.svg" width="200" height="80" alt="microsoft-silver-partner" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/aws-partner.svg" width="160" height="80" alt="aws-partner" loading="lazy">
+          </div>
+          <div class="partners-logo-wrapper">
+            <img src="https://www.xenonstack.com/hubfs/soc-certified-org.svg" width="100" height="100" alt="soc-certified" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/power-bi-2.svg" width="140" height="70" alt="power-bi-partner" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/kubernetes-certified.svg" width="140" height="70" alt="kubernetes-certified-partner" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/snowflake.svg" width="160" height="80" alt="snowflake-partner" loading="lazy">
+            <img src="https://www.xenonstack.com/hubfs/servicenow.svg" width="160" height="80" alt="servicenow-partner" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row second-row">
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 footer-nav-col">
+        <div class="footer-nav-wrapper">
+          <h2>AI Engineering</h2>
+          <div class="footer-nav-pointers">
+            <a href="https://www.xenonstack.com/artificial-intelligence/composite-ai/"><p>Composite AI</p></a>
+            <a href="https://www.xenonstack.com/artificial-intelligence/decision-ai/"><p>Decision AI</p></a>
+            <a href=""><p>AI Quality</p></a>
+            <a href="https://www.xenonstack.com/generative-ai"><p>Generative AI</p></a>
+            <a href="https://www.xenonstack.com/artifical-intelligence/multimodal-ai/"><p>Multimodal AI</p></a>
+            <a href="https://www.xenonstack.com/artifical-intelligence/explainable-ai/"><p>AI Assurance</p></a>
+            <a href=""><p>MLOps</p></a>
+            <a href=""><p>Physical AI</p></a>
+            <a href="https://www.xenonstack.com/artifical-intelligence/ai-augmented-software-development/"><p>Augmented Engineering</p></a>
+            <a href="https://www.xenonstack.com/artificial-intelligence/generative-bi/"><p>Generative BI</p></a>
+          </div>
+        </div>
+        <div class="footer-nav-wrapper">
+          <h2>Data Foundry</h2>
+          <div class="footer-nav-pointers">
+            <a href="https://www.xenonstack.com/dataops/streaming-data-platform/"><p>Streaming Data Platform</p></a>
+            <a href="https://www.xenonstack.com/dataops/delta-lake/"><p>Data Lakehouse</p></a>
+            <a href="https://www.xenonstack.com/dataops/data-catalog/"><p>Data Catalog</p></a>
+            <a href="https://www.xenonstack.com/dataops/data-observability/"><p>Data Observability</p></a>
+            <a href="https://www.xenonstack.com/dataops/cloud-data-warehouse/"><p>Cloud Data Warehouse</p></a>
+            <a href="https://www.xenonstack.com/dataops/data-engineering/"><p>Data Engineering</p></a>
+            <a href=""><p>MetaData Management</p></a>
+            <a href="https://www.xenonstack.com/dataops/augmented-data-quality/"><p>Data Quality</p></a>
+            <a href="https://www.xenonstack.com/dataops/real-time-analytics/"><p>Real Time Analytics</p></a>
+            <a href=""><p>Data Modernization</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 footer-nav-col">
+        <div class="footer-nav-wrapper">
+          <h2>Platform Engineering</h2>
+          <div class="footer-nav-pointers">
+            <a href="https://www.xenonstack.com/solutions/cloud-native-applications/"><p>Cloud Native</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/automation-as-code"><p>Automation As Code</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/observability/"><p>Observability</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/finops/"><p>FinOps</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/application-modernization/"><p>Application Modernization</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/devsecops/"><p>DevSecOps</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/site-reliability-engineering/"><p>Site Reliability Engineering</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/progressive-delivery/"><p>Progressive Delivery</p></a>
+            <a href="https://www.xenonstack.com/enterprise/gitops/"><p>GitOps</p></a>
+            <a href=""><p>Compliance as code</p></a>
+            <a href="https://www.xenonstack.com/enterprise/value-stream-management/"><p>Value Stream Management</p></a>
+            <a href=""><p>Policy as Code</p></a>
+            <a href="https://www.xenonstack.com/cloud-native/telemetry-pipeline"><p>Telemetry Pipeline</p></a>
+          </div>
+        </div>
+        <div class="footer-nav-wrapper">
+          <h2>Agentic AI</h2>
+          <div class="footer-nav-pointers">
+            <a href=""><p>Agentic Analytics</p></a>
+            <a href=""><p>Agentic AI Systems</p></a>
+            <a href=""><p>Process Intelligence</p></a>
+            <a href="https://www.xenonstack.com/platform-engineering/developer-experience-platform/"><p>Developer Experience</p></a>
+            <a href="https://www.xenonstack.com/agentic-ai/"><p>Autonomous Operations</p></a>
+            <a href="https://www.xenonstack.com/solutions/edge-and-vision-ai/"><p>AI Vision at EDGE</p></a>
+            <a href=""><p>Compound AI System</p></a>
+            <a href=""><p>GUI Agents</p></a>
+            <a href=""><p>CMDB Management</p></a>
+            <a href=""><p>ITSM</p></a>
+            <a href=""><p>Network Automation</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 footer-nav-col">
+        <div class="footer-nav-wrapper">
+          <h2>AI Agents</h2>
+          <div class="footer-nav-pointers">
+            <a href=""><p>DataBricks AI Agents</p></a>
+            <a href=""><p>SnowFlake AI Agents</p></a>
+            <a href=""><p>ServiceNow AI Agents</p></a>
+            <a href=""><p>AWS AI Agents</p></a>
+            <a href="https://www.xenonstack.com/ai-agents/microsoft-azure-ai-agents-actions/"><p>Microsoft Azure AI Agents</p></a>
+            <a href="https://www.xenonstack.com/ai-agents/salesforce-agents-actions/"><p>SalesForce AI Agents</p></a>
+            <a href=""><p>Microsoft Dynamics AI Agents</p></a>
+            <a href="https://www.xenonstack.com/ai-agents/mysql-agents-actions/"><p>MySQL AI Agents</p></a>
+            <a href=""><p>PostgreSQL AI Agents</p></a>
+            <a href=""><p>Datadog AI Agents</p></a>
+            <a href=""><p>DynaTrace AI Agents</p></a>
+            <a href=""><p>Splunk AI Agents</p></a>
+            <a href=""><p>BigQuery AI Agents</p></a>
+            <a href="https://www.xenonstack.com/ai-agents/sap-agents-actions/"><p>SAP AI Agents</p></a>
+            <a href="https://www.xenonstack.com/ai-agents/infor-agents-actions/"><p>Infor AI Agents</p></a>
+            <a href="https://www.xenonstack.com/ai-agents/oracle-agents-actions/"><p>Oracle AI Agents</p></a>
+            <a href=""><p>WorkDay AI Agents</p></a>
+            <a href=""><p>Jira AI Agents</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 footer-nav-col">
+        <div class="footer-nav-wrapper">
+          <h2>Industry</h2>
+          <div class="footer-nav-pointers">
+            <a href="https://www.xenonstack.com/industries/aerospace/"><p>Aerospace and Aviation</p></a>
+            <a href="https://www.xenonstack.com/industries/banking/"><p>Financial Services</p></a>
+            <a href="#"><p>Automotive And Industrial</p></a>
+            <a href="https://www.xenonstack.com/industries/consumer-technology/"><p>Consumer Tech</p></a>
+            <a href="https://www.xenonstack.com/industries/enterprise-technology/"><p>Technology, Media and Telco</p></a>
+            <a href="https://www.xenonstack.com/industries/transportation-technology-solutions/"><p>Supply Chain and Logistics</p></a>
+            <a href="https://www.xenonstack.com/industries/travel-hospitality/"><p>Hospitality and Tourism</p></a>
+            <a href="https://www.xenonstack.com/industries/digital-manufacturing-services/"><p>Discrete Manufacturing</p></a>
+          </div>
+        </div>
+        <div class="footer-nav-wrapper">
+          <h2>Enterprise Support</h2>
+          <div class="footer-nav-pointers">
+            <a href="https://www.xenonstack.com/managed-services/managed-ai-services/"><p>AI Managed Services</p></a>
+            <a href="https://www.xenonstack.com/managed-services/kubernetes/"><p>Kubernetes Managed Services</p></a>
+            <a href="https://www.xenonstack.com/managed-services/site-reliability-engineering/"><p>SRE as a Service</p></a>
+            <a href="https://www.xenonstack.com/managed-services/big-data/"><p>Data Managed Services</p></a>
+            <a href=""><p>Analytics Managed Services</p></a>
+            <a href="https://www.xenonstack.com/readiness-assessment/data-protection/"><p>Data Protection</p></a>
+            <a href="https://www.xenonstack.com/managed-services/on-premise-ai-cluster/"><p>On-Premise AI</p></a>
+          </div>
+        </div>
+        <div class="footer-nav-wrapper">
+          <h2>Solutions</h2>
+          <div class="footer-nav-pointers">
+            <a href=""><p>Private Cloud</p></a>
+            <a href=""><p>Internal Developer Platform</p></a>
+            <a href=""><p>AI Inference</p></a>
+            <a href=""><p>Open-Source Data Platform</p></a>
+            <a href=""><p>AI Trust Score</p></a>
+            <a href=""><p>Autonomous SoC</p></a>
+            <a href="https://www.xenonstack.com/solutions/digital-twin/"><p>Digital Twin</p></a>
+            <a href="https://www.xenonstack.com/readiness-assessment/"><p>Readiness Assessment</p></a>
+            <a href="https://www.xenonstack.com/talk-to-specialist/"><p>Talk To Specialist</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 col-lg-2 footer-nav-col">
+        <div class="footer-nav-wrapper">
+          <h2>Company</h2>
+          <div class="footer-nav-pointers">
+            <a href="https://www.xenonstack.com/about-us/"><p>About Us</p></a>
+            <a href="https://www.xenonstack.com/about-us/leadership-team/"><p>Leadership Team</p></a>
+            <a href="https://www.xenonstack.com/about-us/tao-of-xenonstack/"><p>TAO of XenonStack</p></a>
+            <a href="https://www.xenonstack.com/about-us/how-we-grow/"><p>How We Grow</p></a>
+            <a href="https://www.xenonstack.com/about-us/how-we-work/"><p>How We Work</p></a>
+            <a href="https://www.xenonstack.com/careers/"><p>Careers</p></a>
+            <a href="https://www.xenonstack.com/xenonstack-academy/"><p>XA - QSIR</p></a>
+          </div>
+        </div>
+        <div class="footer-nav-wrapper">
+          <h2>Resources</h2>
+          <div class="footer-nav-pointers">
+            <a href="https://www.xenonstack.com/blog"><p>Blog</p></a>
+            <a href="https://www.xenonstack.com/insights/"><p>Insights</p></a>
+            <a href="https://www.xenonstack.com/use-cases"><p>Use Cases</p></a>
+            <a href="https://www.xenonstack.com/case-studies"><p>Case Study</p></a>
+            <a href="https://www.xenonstack.com/videos/"><p>Videos</p></a>
+            <a href="https://www.xenonstack.com/e-book"><p>EBooks</p></a>
+            <a href="https://www.xenonstack.com/presentations/"><p>Presentations</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="xenonstack-terms-policy-wrapper">
+      <div>
+        <p class="copyright">@2025 XenonStack - A Stack Innovator!</p>
+        <a href="/privacy-policy/">Privacy</a>
+        <a href="/privacy-policy/">Terms</a>
+        <a href="/privacy-policy/">Trademark</a>
+      </div>
+      <div>
+        <p class="global-presence">Global Presence :</p>
+        <div class="location-wrapper">
+          <img src="https://www.xenonstack.com/hubfs/united-states.svg" width="24" height="24" loading="lazy" alt="india-flag-icon">
+          <p>USA</p>
+        </div>
+        <div class="location-wrapper">
+          <img src="https://www.xenonstack.com/hubfs/uae-flag-icon.svg" width="24" height="24" loading="lazy" alt="india-flag-icon">
+          <p>Dubai</p>
+        </div>
+        <div class="location-wrapper">
+          <img src="https://www.xenonstack.com/hubfs/india-flag-icon.svg" width="24" height="24" loading="lazy" alt="india-flag-icon">
+          <p>India</p>
+        </div>
+        <div class="location-wrapper">
+          <img src="https://www.xenonstack.com/hubfs/united-kingdom.svg" width="24" height="24" loading="lazy" alt="india-flag-icon">
+          <p>UK</p>
+        </div>
+        <div class="location-wrapper">
+          <img src="https://www.xenonstack.com/hubfs/australia-flag-icon.svg" width="24" height="24" loading="lazy" alt="india-flag-icon">
+          <p>Australia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer></div>
+      
+    </div>
+    
+<!-- HubSpot performance collection script -->
+<script defer="" src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.xenonstack.com"]);
+_hsq.push(["setPageId", "185813661710"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 185813661710,
+    "legacyPageId": "185813661710",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 185813661710,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async="" defer="" src="/hs/scriptloader/8161231.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "8a3139d6-f4de-4407-bfcb-51e54134f0fc",
+    ticks: 1740923843795,
+    page_id: 185813661710,
+    
+    content_group_id: 0,
+    portal_id: 8161231,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    analytics_page_id: "185813661710",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer="" src="/hs/hsstatic/HubspotToolsMenu/static-1.393/js/index.js"></script>
+
+
+
+
+  
+
+<div class="go2933276541 go2369186930" id="hs-web-interactives-top-anchor"><div id="hs-interactives-modal-overlay" class="go1632949049"></div></div>
+<div class="go2933276541 go1348078617" id="hs-web-interactives-bottom-anchor"></div>
+<div id="hs-web-interactives-floating-container">
+  <div id="hs-web-interactives-floating-top-left-anchor" class="go2417249464 go613305155">
+  </div>
+  <div id="hs-web-interactives-floating-top-right-anchor" class="go2417249464 go471583506">
+  </div>
+  <div id="hs-web-interactives-floating-bottom-left-anchor" class="go2417249464 go3921366393">
+  </div>
+  <div id="hs-web-interactives-floating-bottom-right-anchor" class="go2417249464 go3967842156">
+  </div>
+</div><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+</body>
+</html>

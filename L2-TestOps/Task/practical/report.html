@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report.html</title>
+      <link href="assets/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report.html</h1>
+    <p>Report generated on 24-Mar-2025 at 14:07:11 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">11 tests took 00:09:20.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">4 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">7 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.2&#34;, &#34;Platform&#34;: &#34;macOS-14.5-arm64-arm-64bit&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.3.3&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;anyio&#34;: &#34;3.7.1&#34;, &#34;asyncio&#34;: &#34;0.23.6&#34;}}, &#34;tests&#34;: {&#34;test_selenium.py::test_page_load_time&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_page_load_time&#34;, &#34;duration&#34;: &#34;00:01:08&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_page_load_time&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:08&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;def test_page_load_time():\n        &amp;quot;&amp;quot;&amp;quot;Test to measure page load time and verify it loads in under 3 seconds.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        try:\n            driver.get(&amp;quot;https://www.xenonstack.com&amp;quot;)\n    \n            wait.until(lambda d: d.execute_script(&amp;quot;return document.readyState&amp;quot;) == &amp;quot;complete&amp;quot;)\n    \n            load_time = time.time() - start_time\n            logger.info(f&amp;quot;Page load time: {load_time:.2f} seconds&amp;quot;)\n    \n            assert load_time &amp;lt; 3, f&amp;quot;Page load time exceeds 3 seconds. Actual load time: {load_time:.2f} seconds&amp;quot;\n            logger.info(&amp;quot;Page loaded in under 3 seconds&amp;quot;)\n    \n            logger.info(&amp;quot;Page Load Time Test Passed&amp;quot;)\n        except AssertionError as ae:\n            logger.error(f&amp;quot;Test Failed: {ae}&amp;quot;)\n&amp;gt;           raise ae\n\ntest_selenium.py:50: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def test_page_load_time():\n        &amp;quot;&amp;quot;&amp;quot;Test to measure page load time and verify it loads in under 3 seconds.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        try:\n            driver.get(&amp;quot;https://www.xenonstack.com&amp;quot;)\n    \n            wait.until(lambda d: d.execute_script(&amp;quot;return document.readyState&amp;quot;) == &amp;quot;complete&amp;quot;)\n    \n            load_time = time.time() - start_time\n            logger.info(f&amp;quot;Page load time: {load_time:.2f} seconds&amp;quot;)\n    \n&amp;gt;           assert load_time &amp;lt; 3, f&amp;quot;Page load time exceeds 3 seconds. Actual load time: {load_time:.2f} seconds&amp;quot;\nE           AssertionError: Page load time exceeds 3 seconds. Actual load time: 67.88 seconds\nE           assert 67.87695693969727 &amp;lt; 3\n\ntest_selenium.py:44: AssertionError\n\n------------------------------ Captured log call -------------------------------\nERROR    test_selenium:test_selenium.py:49 Test Failed: Page load time exceeds 3 seconds. Actual load time: 67.88 seconds\nassert 67.87695693969727 &amp;lt; 3\n\n&#34;}], &#34;test_selenium.py::test_homepage_load&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_homepage_load&#34;, &#34;duration&#34;: &#34;80 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_homepage_load&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;80 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;test_selenium.py::test_navigation&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_navigation&#34;, &#34;duration&#34;: &#34;00:01:08&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_navigation&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:08&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;def test_navigation():\n        &amp;quot;&amp;quot;&amp;quot;Verify navigation menu items work correctly and all links load without errors.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        count = 0\n        menu_items = [&amp;quot;Foundry&amp;quot;, &amp;quot;Neural AI&amp;quot;, &amp;quot;NexaStack&amp;quot;, &amp;quot;ElixirData&amp;quot;, &amp;quot;MetaSecure&amp;quot;, &amp;quot;Akira AI&amp;quot;, &amp;quot;XAI&amp;quot;]\n    \n        try:\n            for item in menu_items:\n                element = wait.until(EC.visibility_of_element_located((By.XPATH, f&amp;quot;//p[text()=&amp;#x27;{item}&amp;#x27;]&amp;quot;)))\n                driver.execute_script(&amp;quot;arguments[0].scrollIntoView({block: &amp;#x27;center&amp;#x27;});&amp;quot;, element)\n                initial_position = element.location[&amp;#x27;y&amp;#x27;]\n                wait.until(EC.element_to_be_clickable((By.XPATH, f&amp;quot;//p[text()=&amp;#x27;{item}&amp;#x27;]&amp;quot;))).click()\n                time.sleep(1)\n                logger.info(f&amp;quot;Clicked on {item} navigation menu item&amp;quot;)\n    \n&amp;gt;               new_position = element.location[&amp;#x27;y&amp;#x27;]\n\ntest_selenium.py:93: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/anaconda3/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:412: in location\n    old_loc = self._execute(Command.GET_ELEMENT_RECT)[&amp;quot;value&amp;quot;]\n/opt/anaconda3/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:572: in _execute\n    return self._parent.execute(command, params)\n/opt/anaconda3/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:429: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = &amp;lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x103feb530&amp;gt;\nresponse = {&amp;#x27;status&amp;#x27;: 404, &amp;#x27;value&amp;#x27;: &amp;#x27;{&amp;quot;value&amp;quot;:{&amp;quot;error&amp;quot;:&amp;quot;stale element reference&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;stale element reference: stale elemen...00019f6f6f94 _pthread_start + 136\\\\n22  libsystem_pthread.dylib             0x000000019f6f1d34 thread_start + 8\\\\n&amp;quot;}}&amp;#x27;}\n\n    def check_response(self, response: Dict[str, Any]) -&amp;gt; None:\n        &amp;quot;&amp;quot;&amp;quot;Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        &amp;quot;&amp;quot;&amp;quot;\n        status = response.get(&amp;quot;status&amp;quot;, None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(&amp;quot;message&amp;quot;, &amp;quot;&amp;quot;)\n        screen: str = response.get(&amp;quot;screen&amp;quot;, &amp;quot;&amp;quot;)\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(&amp;quot;value&amp;quot;, None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[&amp;quot;value&amp;quot;]\n                    status = value.get(&amp;quot;error&amp;quot;, None)\n                    if not status:\n                        status = value.get(&amp;quot;status&amp;quot;, ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(&amp;quot;value&amp;quot;) or value.get(&amp;quot;message&amp;quot;)\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(&amp;quot;message&amp;quot;)\n                    else:\n                        message = value.get(&amp;quot;message&amp;quot;, None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(&amp;quot;__&amp;quot;)]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[&amp;quot;value&amp;quot;]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == &amp;quot;&amp;quot; and &amp;quot;message&amp;quot; in value:\n            message = value[&amp;quot;message&amp;quot;]\n    \n        screen = None  # type: ignore[assignment]\n        if &amp;quot;screen&amp;quot; in value:\n            screen = value[&amp;quot;screen&amp;quot;]\n    \n        stacktrace = None\n        st_value = value.get(&amp;quot;stackTrace&amp;quot;) or value.get(&amp;quot;stacktrace&amp;quot;)\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(&amp;quot;\\n&amp;quot;)\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(&amp;quot;lineNumber&amp;quot;, &amp;quot;&amp;quot;)\n                        file = frame.get(&amp;quot;fileName&amp;quot;, &amp;quot;&amp;lt;anonymous&amp;gt;&amp;quot;)\n                        if line:\n                            file = f&amp;quot;{file}:{line}&amp;quot;\n                        meth = frame.get(&amp;quot;methodName&amp;quot;, &amp;quot;&amp;lt;anonymous&amp;gt;&amp;quot;)\n                        if &amp;quot;className&amp;quot; in frame:\n                            meth = f&amp;quot;{frame[&amp;#x27;className&amp;#x27;]}.{meth}&amp;quot;\n                        msg = &amp;quot;    at %s (%s)&amp;quot;\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if &amp;quot;data&amp;quot; in value:\n                alert_text = value[&amp;quot;data&amp;quot;].get(&amp;quot;text&amp;quot;)\n            elif &amp;quot;alert&amp;quot; in value:\n                alert_text = value[&amp;quot;alert&amp;quot;].get(&amp;quot;text&amp;quot;)\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n&amp;gt;       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found\nE         (Session info: chrome=134.0.6998.166); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nE       Stacktrace:\nE       0   chromedriver                        0x00000001010776c8 cxxbridge1$str$ptr + 2791212\nE       1   chromedriver                        0x000000010106fc9c cxxbridge1$str$ptr + 2759936\nE       2   chromedriver                        0x0000000100bc1e30 cxxbridge1$string$len + 92928\nE       3   chromedriver                        0x0000000100bd275c cxxbridge1$string$len + 160812\nE       4   chromedriver                        0x0000000100bd1810 cxxbridge1$string$len + 156896\nE       5   chromedriver                        0x0000000100bc83e0 cxxbridge1$string$len + 118960\nE       6   chromedriver                        0x0000000100bc6aec cxxbridge1$string$len + 112572\nE       7   chromedriver                        0x0000000100bc9cfc cxxbridge1$string$len + 125388\nE       8   chromedriver                        0x0000000100bc9da4 cxxbridge1$string$len + 125556\nE       9   chromedriver                        0x0000000100c04da4 cxxbridge1$string$len + 367220\nE       10  chromedriver                        0x0000000100bfe818 cxxbridge1$string$len + 341224\nE       11  chromedriver                        0x0000000100c4a5f8 cxxbridge1$string$len + 651976\nE       12  chromedriver                        0x0000000100bfd2fc cxxbridge1$string$len + 335820\nE       13  chromedriver                        0x000000010103c6c4 cxxbridge1$str$ptr + 2549544\nE       14  chromedriver                        0x000000010103f988 cxxbridge1$str$ptr + 2562540\nE       15  chromedriver                        0x000000010101c71c cxxbridge1$str$ptr + 2418560\nE       16  chromedriver                        0x00000001010401e8 cxxbridge1$str$ptr + 2564684\nE       17  chromedriver                        0x000000010100d750 cxxbridge1$str$ptr + 2357172\nE       18  chromedriver                        0x000000010105ff58 cxxbridge1$str$ptr + 2695100\nE       19  chromedriver                        0x00000001010600e0 cxxbridge1$str$ptr + 2695492\nE       20  chromedriver                        0x000000010106f910 cxxbridge1$str$ptr + 2759028\nE       21  libsystem_pthread.dylib             0x000000019f6f6f94 _pthread_start + 136\nE       22  libsystem_pthread.dylib             0x000000019f6f1d34 thread_start + 8\n\n/opt/anaconda3/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py:232: StaleElementReferenceException\n\nDuring handling of the above exception, another exception occurred:\n\n    def test_navigation():\n        &amp;quot;&amp;quot;&amp;quot;Verify navigation menu items work correctly and all links load without errors.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        count = 0\n        menu_items = [&amp;quot;Foundry&amp;quot;, &amp;quot;Neural AI&amp;quot;, &amp;quot;NexaStack&amp;quot;, &amp;quot;ElixirData&amp;quot;, &amp;quot;MetaSecure&amp;quot;, &amp;quot;Akira AI&amp;quot;, &amp;quot;XAI&amp;quot;]\n    \n        try:\n            for item in menu_items:\n                element = wait.until(EC.visibility_of_element_located((By.XPATH, f&amp;quot;//p[text()=&amp;#x27;{item}&amp;#x27;]&amp;quot;)))\n                driver.execute_script(&amp;quot;arguments[0].scrollIntoView({block: &amp;#x27;center&amp;#x27;});&amp;quot;, element)\n                initial_position = element.location[&amp;#x27;y&amp;#x27;]\n                wait.until(EC.element_to_be_clickable((By.XPATH, f&amp;quot;//p[text()=&amp;#x27;{item}&amp;#x27;]&amp;quot;))).click()\n                time.sleep(1)\n                logger.info(f&amp;quot;Clicked on {item} navigation menu item&amp;quot;)\n    \n                new_position = element.location[&amp;#x27;y&amp;#x27;]\n    \n                if initial_position == new_position:\n                    logger.error(f&amp;quot;Page did not scroll down for {item} navigation menu item&amp;quot;)\n                    count += 1\n                else:\n                    logger.info(f&amp;quot;Page scrolled down for {item} navigation menu item&amp;quot;)\n            if count &amp;gt; 0:\n                assert False, f&amp;quot;Page did not scroll down for {count} items.&amp;quot;\n    \n            logger.info(&amp;quot;All navigation menu items tested successfully&amp;quot;)\n        except Exception as e:\n            logger.error(f&amp;quot;Test Failed: {e}&amp;quot;)\n&amp;gt;           assert False, f&amp;quot;Test Failed: {e}&amp;quot;\nE           AssertionError: Test Failed: Message: stale element reference: stale element not found\nE               (Session info: chrome=134.0.6998.166); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nE             Stacktrace:\nE             0   chromedriver                        0x00000001010776c8 cxxbridge1$str$ptr + 2791212\nE             1   chromedriver                        0x000000010106fc9c cxxbridge1$str$ptr + 2759936\nE             2   chromedriver                        0x0000000100bc1e30 cxxbridge1$string$len + 92928\nE             3   chromedriver                        0x0000000100bd275c cxxbridge1$string$len + 160812\nE             4   chromedriver                        0x0000000100bd1810 cxxbridge1$string$len + 156896\nE             5   chromedriver                        0x0000000100bc83e0 cxxbridge1$string$len + 118960\nE             6   chromedriver                        0x0000000100bc6aec cxxbridge1$string$len + 112572\nE             7   chromedriver                        0x0000000100bc9cfc cxxbridge1$string$len + 125388\nE             8   chromedriver                        0x0000000100bc9da4 cxxbridge1$string$len + 125556\nE             9   chromedriver                        0x0000000100c04da4 cxxbridge1$string$len + 367220\nE             10  chromedriver                        0x0000000100bfe818 cxxbridge1$string$len + 341224\nE             11  chromedriver                        0x0000000100c4a5f8 cxxbridge1$string$len + 651976\nE             12  chromedriver                        0x0000000100bfd2fc cxxbridge1$string$len + 335820\nE             13  chromedriver                        0x000000010103c6c4 cxxbridge1$str$ptr + 2549544\nE             14  chromedriver                        0x000000010103f988 cxxbridge1$str$ptr + 2562540\nE             15  chromedriver                        0x000000010101c71c cxxbridge1$str$ptr + 2418560\nE             16  chromedriver                        0x00000001010401e8 cxxbridge1$str$ptr + 2564684\nE             17  chromedriver                        0x000000010100d750 cxxbridge1$str$ptr + 2357172\nE             18  chromedriver                        0x000000010105ff58 cxxbridge1$str$ptr + 2695100\nE             19  chromedriver                        0x00000001010600e0 cxxbridge1$str$ptr + 2695492\nE             20  chromedriver                        0x000000010106f910 cxxbridge1$str$ptr + 2759028\nE             21  libsystem_pthread.dylib             0x000000019f6f6f94 _pthread_start + 136\nE             22  libsystem_pthread.dylib             0x000000019f6f1d34 thread_start + 8\nE             \nE           assert False\n\ntest_selenium.py:106: AssertionError\n\n------------------------------ Captured log call -------------------------------\nERROR    test_selenium:test_selenium.py:105 Test Failed: Message: stale element reference: stale element not found\n  (Session info: chrome=134.0.6998.166); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nStacktrace:\n0   chromedriver                        0x00000001010776c8 cxxbridge1$str$ptr + 2791212\n1   chromedriver                        0x000000010106fc9c cxxbridge1$str$ptr + 2759936\n2   chromedriver                        0x0000000100bc1e30 cxxbridge1$string$len + 92928\n3   chromedriver                        0x0000000100bd275c cxxbridge1$string$len + 160812\n4   chromedriver                        0x0000000100bd1810 cxxbridge1$string$len + 156896\n5   chromedriver                        0x0000000100bc83e0 cxxbridge1$string$len + 118960\n6   chromedriver                        0x0000000100bc6aec cxxbridge1$string$len + 112572\n7   chromedriver                        0x0000000100bc9cfc cxxbridge1$string$len + 125388\n8   chromedriver                        0x0000000100bc9da4 cxxbridge1$string$len + 125556\n9   chromedriver                        0x0000000100c04da4 cxxbridge1$string$len + 367220\n10  chromedriver                        0x0000000100bfe818 cxxbridge1$string$len + 341224\n11  chromedriver                        0x0000000100c4a5f8 cxxbridge1$string$len + 651976\n12  chromedriver                        0x0000000100bfd2fc cxxbridge1$string$len + 335820\n13  chromedriver                        0x000000010103c6c4 cxxbridge1$str$ptr + 2549544\n14  chromedriver                        0x000000010103f988 cxxbridge1$str$ptr + 2562540\n15  chromedriver                        0x000000010101c71c cxxbridge1$str$ptr + 2418560\n16  chromedriver                        0x00000001010401e8 cxxbridge1$str$ptr + 2564684\n17  chromedriver                        0x000000010100d750 cxxbridge1$str$ptr + 2357172\n18  chromedriver                        0x000000010105ff58 cxxbridge1$str$ptr + 2695100\n19  chromedriver                        0x00000001010600e0 cxxbridge1$str$ptr + 2695492\n20  chromedriver                        0x000000010106f910 cxxbridge1$str$ptr + 2759028\n21  libsystem_pthread.dylib             0x000000019f6f6f94 _pthread_start + 136\n22  libsystem_pthread.dylib             0x000000019f6f1d34 thread_start + 8\n\n&#34;}], &#34;test_selenium.py::test_footer&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_footer&#34;, &#34;duration&#34;: &#34;00:01:07&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_footer&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:07&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;def test_footer():\n        &amp;quot;&amp;quot;&amp;quot;Test to verify footer links and their load times.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        footer_links = set()\n        count = 0\n        try:\n            footer = wait.until(EC.visibility_of_element_located((By.TAG_NAME, &amp;quot;footer&amp;quot;)))\n    \n            links = footer.find_elements(By.TAG_NAME, &amp;quot;a&amp;quot;)\n            for link in links:\n                link_href = link.get_attribute(&amp;#x27;href&amp;#x27;)\n                if link_href == &amp;quot;&amp;quot;:\n                    count += 1\n                else:\n                    footer_links.add(link_href)\n    \n            logger.info(f&amp;quot;Total Footer Links Found: {len(footer_links)}&amp;quot;)\n&amp;gt;           assert count == 0, f&amp;quot;{count} links in the footer do not have links to pages.&amp;quot;\nE           AssertionError: 27 links in the footer do not have links to pages.\nE           assert 27 == 0\n\ntest_selenium.py:128: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\n    def test_footer():\n        &amp;quot;&amp;quot;&amp;quot;Test to verify footer links and their load times.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        footer_links = set()\n        count = 0\n        try:\n            footer = wait.until(EC.visibility_of_element_located((By.TAG_NAME, &amp;quot;footer&amp;quot;)))\n    \n            links = footer.find_elements(By.TAG_NAME, &amp;quot;a&amp;quot;)\n            for link in links:\n                link_href = link.get_attribute(&amp;#x27;href&amp;#x27;)\n                if link_href == &amp;quot;&amp;quot;:\n                    count += 1\n                else:\n                    footer_links.add(link_href)\n    \n            logger.info(f&amp;quot;Total Footer Links Found: {len(footer_links)}&amp;quot;)\n            assert count == 0, f&amp;quot;{count} links in the footer do not have links to pages.&amp;quot;\n            for page in footer_links:\n                resp = requests.get(page, timeout=3, stream=True)\n                try:\n                    if resp.status_code in [400, 401, 443, 999]:\n                        logger.warning(f&amp;quot;{footer_links} blocks bot requests ({resp.status_code}) or is not available. Marking as valid.&amp;quot;)\n                        return\n                    elif resp.status_code &amp;lt; 400:\n                        logger.info(f&amp;quot;External link &amp;#x27;{footer_links}&amp;#x27; is valid. [HTTP {resp.status_code}]&amp;quot;)\n    \n                    else:\n                        logger.error(f&amp;quot;External link &amp;#x27;{footer_links}&amp;#x27; returned HTTP {resp.status_code}. Possible broken link.&amp;quot;)\n    \n                except TimeoutError:\n                    logger.error(f&amp;quot;{page} failed to load within the expected time.&amp;quot;)\n                    assert False, f&amp;quot;{page} timed out while loading&amp;quot;\n    \n            logger.info(&amp;quot;Footer Links Verification Test Passed&amp;quot;)\n        except Exception as e:\n            logger.error(f&amp;quot;Test Failed: {e}&amp;quot;)\n&amp;gt;           assert False, f&amp;quot;Test Failed: {e}&amp;quot;\nE           AssertionError: Test Failed: 27 links in the footer do not have links to pages.\nE             assert 27 == 0\nE           assert False\n\ntest_selenium.py:148: AssertionError\n\n------------------------------ Captured log call -------------------------------\nERROR    test_selenium:test_selenium.py:147 Test Failed: 27 links in the footer do not have links to pages.\nassert 27 == 0\n\n&#34;}], &#34;test_selenium.py::test_body_links&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_body_links&#34;, &#34;duration&#34;: &#34;00:01:39&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_body_links&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:39&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;test_selenium.py::test_form_validation&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_form_validation&#34;, &#34;duration&#34;: &#34;00:00:12&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_form_validation&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:12&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;test_selenium.py::test_input_validation&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_input_validation&#34;, &#34;duration&#34;: &#34;00:00:37&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_input_validation&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:37&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;def test_input_validation():\n        &amp;quot;&amp;quot;&amp;quot;Verify form validation for various inputs and dropdown selections.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        try:\n    \n            # 1. Enter !@#$%^&amp;amp;*() in name fields.\n            first_name_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;firstname&amp;quot;)))\n            last_name_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;lastname&amp;quot;)))\n            time.sleep(2)\n            first_name_field.clear()\n            last_name_field.clear()\n            time.sleep(2)\n            first_name_field.send_keys(&amp;quot;!@#$%^&amp;amp;*()&amp;quot;)\n            last_name_field.send_keys(&amp;quot;!@#$%^&amp;amp;*()&amp;quot;)\n            time.sleep(2)\n    \n            # 2. Verify an error message appears.\n            assert &amp;quot;Please enter a valid First Name&amp;quot; in driver.page_source\n            assert &amp;quot;Please enter a valid Last Name&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Special character validation passed&amp;quot;)\n            time.sleep(2)\n    \n            # 3. Enter numbers in the first name and last name fields.\n            first_name_field.clear()\n            last_name_field.clear()\n            time.sleep(2)\n            first_name_field.send_keys(&amp;quot;12345&amp;quot;)\n            last_name_field.send_keys(&amp;quot;67890&amp;quot;)\n            time.sleep(2)\n    \n            # 4. Verify an error message appears.\n            assert &amp;quot;Please enter a valid First Name&amp;quot; in driver.page_source\n            assert &amp;quot;Please enter a valid Last Name&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Number validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 5. Enter an incorrect email format. (e.g., invalid-email)\n            email_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;email&amp;quot;)))\n            email_field.clear()\n            time.sleep(2)\n            email_field.send_keys(&amp;quot;invalid-email&amp;quot;)\n            time.sleep(2)\n    \n            # 6. Verify an error message appears.\n            assert &amp;quot;Please enter a valid Business Email ID&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Invalid email format validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 7. Enter an invalid phone number (e.g., 123abc)\n            phone_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;contact&amp;quot;)))\n            phone_field.clear()\n            time.sleep(2)\n            phone_field.send_keys(&amp;quot;123abc&amp;quot;)\n            time.sleep(2)\n    \n            # 8. Verify an error message appears.\n            assert &amp;quot;Please enter a valid Contact Number&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Invalid phone number validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 9. Select an option from the industry dropdown.\n            industry_dropdown = wait.until(EC.element_to_be_clickable((By.NAME, &amp;quot;industry&amp;quot;)))\n            industry_dropdown.click()\n            time.sleep(2)\n            industry_option = wait.until(EC.element_to_be_clickable((By.XPATH, &amp;quot;//option[text()=&amp;#x27;Agriculture&amp;#x27;]&amp;quot;)))\n            industry_option.click()\n            time.sleep(2)\n    \n            # 10. Verify it gets selected and stored properly.\n            assert industry_option.is_selected()\n            logger.info(&amp;quot;Industry dropdown selection passed&amp;quot;)\n            time.sleep(2)\n    \n            # 11. Select \u2018Others\u2019 from a dropdown.\n            other_option = wait.until(EC.element_to_be_clickable((By.XPATH, &amp;quot;//option[text()=&amp;#x27;Others (Please Specify)&amp;#x27;]&amp;quot;)))\n            time.sleep(2)\n            other_option.click()\n            time.sleep(2)\n    \n            # 12. Verify a text box appears.\n            try:\n&amp;gt;               other_textbox = driver.find_element(By.NAME, &amp;quot;otherIndustry&amp;quot;)\n\ntest_selenium.py:316: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/anaconda3/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:898: in find_element\n    return self.execute(Command.FIND_ELEMENT, {&amp;quot;using&amp;quot;: by, &amp;quot;value&amp;quot;: value})[&amp;quot;value&amp;quot;]\n/opt/anaconda3/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:429: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = &amp;lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x103feb530&amp;gt;\nresponse = {&amp;#x27;status&amp;#x27;: 404, &amp;#x27;value&amp;#x27;: &amp;#x27;{&amp;quot;value&amp;quot;:{&amp;quot;error&amp;quot;:&amp;quot;no such element&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;no such element: Unable to locate element: {\\...00019f6f6f94 _pthread_start + 136\\\\n15  libsystem_pthread.dylib             0x000000019f6f1d34 thread_start + 8\\\\n&amp;quot;}}&amp;#x27;}\n\n    def check_response(self, response: Dict[str, Any]) -&amp;gt; None:\n        &amp;quot;&amp;quot;&amp;quot;Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        &amp;quot;&amp;quot;&amp;quot;\n        status = response.get(&amp;quot;status&amp;quot;, None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(&amp;quot;message&amp;quot;, &amp;quot;&amp;quot;)\n        screen: str = response.get(&amp;quot;screen&amp;quot;, &amp;quot;&amp;quot;)\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(&amp;quot;value&amp;quot;, None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[&amp;quot;value&amp;quot;]\n                    status = value.get(&amp;quot;error&amp;quot;, None)\n                    if not status:\n                        status = value.get(&amp;quot;status&amp;quot;, ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(&amp;quot;value&amp;quot;) or value.get(&amp;quot;message&amp;quot;)\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(&amp;quot;message&amp;quot;)\n                    else:\n                        message = value.get(&amp;quot;message&amp;quot;, None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(&amp;quot;__&amp;quot;)]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[&amp;quot;value&amp;quot;]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == &amp;quot;&amp;quot; and &amp;quot;message&amp;quot; in value:\n            message = value[&amp;quot;message&amp;quot;]\n    \n        screen = None  # type: ignore[assignment]\n        if &amp;quot;screen&amp;quot; in value:\n            screen = value[&amp;quot;screen&amp;quot;]\n    \n        stacktrace = None\n        st_value = value.get(&amp;quot;stackTrace&amp;quot;) or value.get(&amp;quot;stacktrace&amp;quot;)\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(&amp;quot;\\n&amp;quot;)\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(&amp;quot;lineNumber&amp;quot;, &amp;quot;&amp;quot;)\n                        file = frame.get(&amp;quot;fileName&amp;quot;, &amp;quot;&amp;lt;anonymous&amp;gt;&amp;quot;)\n                        if line:\n                            file = f&amp;quot;{file}:{line}&amp;quot;\n                        meth = frame.get(&amp;quot;methodName&amp;quot;, &amp;quot;&amp;lt;anonymous&amp;gt;&amp;quot;)\n                        if &amp;quot;className&amp;quot; in frame:\n                            meth = f&amp;quot;{frame[&amp;#x27;className&amp;#x27;]}.{meth}&amp;quot;\n                        msg = &amp;quot;    at %s (%s)&amp;quot;\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if &amp;quot;data&amp;quot; in value:\n                alert_text = value[&amp;quot;data&amp;quot;].get(&amp;quot;text&amp;quot;)\n            elif &amp;quot;alert&amp;quot; in value:\n                alert_text = value[&amp;quot;alert&amp;quot;].get(&amp;quot;text&amp;quot;)\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n&amp;gt;       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;[name=&amp;quot;otherIndustry&amp;quot;]&amp;quot;}\nE         (Session info: chrome=134.0.6998.166); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nE       Stacktrace:\nE       0   chromedriver                        0x00000001010776c8 cxxbridge1$str$ptr + 2791212\nE       1   chromedriver                        0x000000010106fc9c cxxbridge1$str$ptr + 2759936\nE       2   chromedriver                        0x0000000100bc1e30 cxxbridge1$string$len + 92928\nE       3   chromedriver                        0x0000000100c09170 cxxbridge1$string$len + 384576\nE       4   chromedriver                        0x0000000100c4a5f8 cxxbridge1$string$len + 651976\nE       5   chromedriver                        0x0000000100bfd2fc cxxbridge1$string$len + 335820\nE       6   chromedriver                        0x000000010103c6c4 cxxbridge1$str$ptr + 2549544\nE       7   chromedriver                        0x000000010103f988 cxxbridge1$str$ptr + 2562540\nE       8   chromedriver                        0x000000010101c71c cxxbridge1$str$ptr + 2418560\nE       9   chromedriver                        0x00000001010401e8 cxxbridge1$str$ptr + 2564684\nE       10  chromedriver                        0x000000010100d750 cxxbridge1$str$ptr + 2357172\nE       11  chromedriver                        0x000000010105ff58 cxxbridge1$str$ptr + 2695100\nE       12  chromedriver                        0x00000001010600e0 cxxbridge1$str$ptr + 2695492\nE       13  chromedriver                        0x000000010106f910 cxxbridge1$str$ptr + 2759028\nE       14  libsystem_pthread.dylib             0x000000019f6f6f94 _pthread_start + 136\nE       15  libsystem_pthread.dylib             0x000000019f6f1d34 thread_start + 8\n\n/opt/anaconda3/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py:232: NoSuchElementException\n\nDuring handling of the above exception, another exception occurred:\n\n    def test_input_validation():\n        &amp;quot;&amp;quot;&amp;quot;Verify form validation for various inputs and dropdown selections.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        try:\n    \n            # 1. Enter !@#$%^&amp;amp;*() in name fields.\n            first_name_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;firstname&amp;quot;)))\n            last_name_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;lastname&amp;quot;)))\n            time.sleep(2)\n            first_name_field.clear()\n            last_name_field.clear()\n            time.sleep(2)\n            first_name_field.send_keys(&amp;quot;!@#$%^&amp;amp;*()&amp;quot;)\n            last_name_field.send_keys(&amp;quot;!@#$%^&amp;amp;*()&amp;quot;)\n            time.sleep(2)\n    \n            # 2. Verify an error message appears.\n            assert &amp;quot;Please enter a valid First Name&amp;quot; in driver.page_source\n            assert &amp;quot;Please enter a valid Last Name&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Special character validation passed&amp;quot;)\n            time.sleep(2)\n    \n            # 3. Enter numbers in the first name and last name fields.\n            first_name_field.clear()\n            last_name_field.clear()\n            time.sleep(2)\n            first_name_field.send_keys(&amp;quot;12345&amp;quot;)\n            last_name_field.send_keys(&amp;quot;67890&amp;quot;)\n            time.sleep(2)\n    \n            # 4. Verify an error message appears.\n            assert &amp;quot;Please enter a valid First Name&amp;quot; in driver.page_source\n            assert &amp;quot;Please enter a valid Last Name&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Number validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 5. Enter an incorrect email format. (e.g., invalid-email)\n            email_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;email&amp;quot;)))\n            email_field.clear()\n            time.sleep(2)\n            email_field.send_keys(&amp;quot;invalid-email&amp;quot;)\n            time.sleep(2)\n    \n            # 6. Verify an error message appears.\n            assert &amp;quot;Please enter a valid Business Email ID&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Invalid email format validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 7. Enter an invalid phone number (e.g., 123abc)\n            phone_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;contact&amp;quot;)))\n            phone_field.clear()\n            time.sleep(2)\n            phone_field.send_keys(&amp;quot;123abc&amp;quot;)\n            time.sleep(2)\n    \n            # 8. Verify an error message appears.\n            assert &amp;quot;Please enter a valid Contact Number&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Invalid phone number validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 9. Select an option from the industry dropdown.\n            industry_dropdown = wait.until(EC.element_to_be_clickable((By.NAME, &amp;quot;industry&amp;quot;)))\n            industry_dropdown.click()\n            time.sleep(2)\n            industry_option = wait.until(EC.element_to_be_clickable((By.XPATH, &amp;quot;//option[text()=&amp;#x27;Agriculture&amp;#x27;]&amp;quot;)))\n            industry_option.click()\n            time.sleep(2)\n    \n            # 10. Verify it gets selected and stored properly.\n            assert industry_option.is_selected()\n            logger.info(&amp;quot;Industry dropdown selection passed&amp;quot;)\n            time.sleep(2)\n    \n            # 11. Select \u2018Others\u2019 from a dropdown.\n            other_option = wait.until(EC.element_to_be_clickable((By.XPATH, &amp;quot;//option[text()=&amp;#x27;Others (Please Specify)&amp;#x27;]&amp;quot;)))\n            time.sleep(2)\n            other_option.click()\n            time.sleep(2)\n    \n            # 12. Verify a text box appears.\n            try:\n                other_textbox = driver.find_element(By.NAME, &amp;quot;otherIndustry&amp;quot;)\n                logger.info(&amp;quot;Other industry textbox validation passed&amp;quot;)\n            except:\n                raise Exception(&amp;quot;Other industry Textbox not available&amp;quot;)\n    \n            logger.info(&amp;quot;Form Validation Test Passed&amp;quot;)\n        except Exception as e:\n            logger.error(f&amp;quot;Form Validation Test Failed&amp;quot;)\n&amp;gt;           raise e\n\ntest_selenium.py:324: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def test_input_validation():\n        &amp;quot;&amp;quot;&amp;quot;Verify form validation for various inputs and dropdown selections.&amp;quot;&amp;quot;&amp;quot;\n        start_time = time.time()\n        try:\n    \n            # 1. Enter !@#$%^&amp;amp;*() in name fields.\n            first_name_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;firstname&amp;quot;)))\n            last_name_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;lastname&amp;quot;)))\n            time.sleep(2)\n            first_name_field.clear()\n            last_name_field.clear()\n            time.sleep(2)\n            first_name_field.send_keys(&amp;quot;!@#$%^&amp;amp;*()&amp;quot;)\n            last_name_field.send_keys(&amp;quot;!@#$%^&amp;amp;*()&amp;quot;)\n            time.sleep(2)\n    \n            # 2. Verify an error message appears.\n            assert &amp;quot;Please enter a valid First Name&amp;quot; in driver.page_source\n            assert &amp;quot;Please enter a valid Last Name&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Special character validation passed&amp;quot;)\n            time.sleep(2)\n    \n            # 3. Enter numbers in the first name and last name fields.\n            first_name_field.clear()\n            last_name_field.clear()\n            time.sleep(2)\n            first_name_field.send_keys(&amp;quot;12345&amp;quot;)\n            last_name_field.send_keys(&amp;quot;67890&amp;quot;)\n            time.sleep(2)\n    \n            # 4. Verify an error message appears.\n            assert &amp;quot;Please enter a valid First Name&amp;quot; in driver.page_source\n            assert &amp;quot;Please enter a valid Last Name&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Number validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 5. Enter an incorrect email format. (e.g., invalid-email)\n            email_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;email&amp;quot;)))\n            email_field.clear()\n            time.sleep(2)\n            email_field.send_keys(&amp;quot;invalid-email&amp;quot;)\n            time.sleep(2)\n    \n            # 6. Verify an error message appears.\n            assert &amp;quot;Please enter a valid Business Email ID&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Invalid email format validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 7. Enter an invalid phone number (e.g., 123abc)\n            phone_field = wait.until(EC.visibility_of_element_located((By.NAME, &amp;quot;contact&amp;quot;)))\n            phone_field.clear()\n            time.sleep(2)\n            phone_field.send_keys(&amp;quot;123abc&amp;quot;)\n            time.sleep(2)\n    \n            # 8. Verify an error message appears.\n            assert &amp;quot;Please enter a valid Contact Number&amp;quot; in driver.page_source\n            logger.info(&amp;quot;Invalid phone number validation passed&amp;quot;)\n    \n            time.sleep(2)\n    \n            # 9. Select an option from the industry dropdown.\n            industry_dropdown = wait.until(EC.element_to_be_clickable((By.NAME, &amp;quot;industry&amp;quot;)))\n            industry_dropdown.click()\n            time.sleep(2)\n            industry_option = wait.until(EC.element_to_be_clickable((By.XPATH, &amp;quot;//option[text()=&amp;#x27;Agriculture&amp;#x27;]&amp;quot;)))\n            industry_option.click()\n            time.sleep(2)\n    \n            # 10. Verify it gets selected and stored properly.\n            assert industry_option.is_selected()\n            logger.info(&amp;quot;Industry dropdown selection passed&amp;quot;)\n            time.sleep(2)\n    \n            # 11. Select \u2018Others\u2019 from a dropdown.\n            other_option = wait.until(EC.element_to_be_clickable((By.XPATH, &amp;quot;//option[text()=&amp;#x27;Others (Please Specify)&amp;#x27;]&amp;quot;)))\n            time.sleep(2)\n            other_option.click()\n            time.sleep(2)\n    \n            # 12. Verify a text box appears.\n            try:\n                other_textbox = driver.find_element(By.NAME, &amp;quot;otherIndustry&amp;quot;)\n                logger.info(&amp;quot;Other industry textbox validation passed&amp;quot;)\n            except:\n&amp;gt;               raise Exception(&amp;quot;Other industry Textbox not available&amp;quot;)\nE               Exception: Other industry Textbox not available\n\ntest_selenium.py:319: Exception\n\n------------------------------ Captured log call -------------------------------\nERROR    test_selenium:test_selenium.py:323 Form Validation Test Failed\n\n&#34;}], &#34;test_selenium.py::test_successful_form_validation&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_successful_form_validation&#34;, &#34;duration&#34;: &#34;00:00:34&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_successful_form_validation&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:34&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;test_selenium.py::test_mobile_responsiveness&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_mobile_responsiveness&#34;, &#34;duration&#34;: &#34;00:00:09&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_mobile_responsiveness&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:09&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;test_selenium.py::test_security_xss&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_security_xss&#34;, &#34;duration&#34;: &#34;00:01:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_security_xss&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;test_selenium.py::test_sql_injection&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_selenium.py::test_sql_injection&#34;, &#34;duration&#34;: &#34;00:01:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_selenium.py::test_sql_injection&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
